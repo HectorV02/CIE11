@@ -1,0 +1,1784 @@
+[
+    {
+        "id": 595,
+        "created_at": "2025-06-23 11:35:12",
+        "age": "51",
+        "specialty": "Medicina Interna",
+        "text": "Várices esofágicas secundarias con hemorragia",
+        "code": "DA26.00/DB96.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/949012083 /  //id.who.int/icd/release/11/2024-01/mms/1235727122"
+    },
+    {
+        "id": 598,
+        "created_at": "2025-06-23 11:10:16",
+        "age": "75",
+        "specialty": "Sin definir",
+        "text": "Neumonía, organismo sin especificación",
+        "code": "CA40.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/142052508/unspecified"
+    },
+    {
+        "id": 596,
+        "created_at": "2025-06-23 10:40:03",
+        "age": "27",
+        "specialty": "Medicina Interna",
+        "text": "Pielonefritis aguda",
+        "code": "GB51",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/441183088"
+    },
+    {
+        "id": 590,
+        "created_at": "2025-06-23 10:18:26",
+        "age": "62",
+        "specialty": "Medicina Interna",
+        "text": "Hemorragia gastrointestinal, sin especificación",
+        "code": "ME24.9Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/2044414353/unspecified"
+    },
+    {
+        "id": 589,
+        "created_at": "2025-06-23 09:57:05",
+        "age": "91",
+        "specialty": "Medicina Interna",
+        "text": "Neumonía, organismo sin especificación",
+        "code": "CA40.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/142052508/unspecified"
+    },
+    {
+        "id": 583,
+        "created_at": "2025-06-21 11:20:05",
+        "age": "57",
+        "specialty": "Medicina Interna",
+        "text": "Trastornos de la regulación inmunitaria con predominio de la linfoproliferación",
+        "code": "4A01.22",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/969875874"
+    },
+    {
+        "id": 580,
+        "created_at": "2025-06-20 09:39:35",
+        "age": "57",
+        "specialty": "Medicina Interna",
+        "text": "Neuromielitis óptica, sin especificación",
+        "code": "8A43.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/744293382/unspecified"
+    },
+    {
+        "id": 570,
+        "created_at": "2025-06-19 13:32:19",
+        "age": "79",
+        "specialty": "Medicina Interna",
+        "text": "Neumonía bacteriana, sin especificación",
+        "code": "CA40.0Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1323682030/unspecified"
+    },
+    {
+        "id": 577,
+        "created_at": "2025-06-19 12:57:11",
+        "age": "69",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia respiratoria aguda de tipo I",
+        "code": "CB41.00",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/2024199586"
+    },
+    {
+        "id": 576,
+        "created_at": "2025-06-19 11:23:36",
+        "age": "73",
+        "specialty": "Medicina Interna",
+        "text": "Infarto agudo de miocardio sin elevación del segmento ST",
+        "code": "BA41.1",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/680129526"
+    },
+    {
+        "id": 572,
+        "created_at": "2025-06-19 10:17:54",
+        "age": "49",
+        "specialty": "Medicina Interna",
+        "text": "Taquicardia ventricular y paro cardíaco por fibrilación",
+        "code": "MC82.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1966487547"
+    },
+    {
+        "id": 567,
+        "created_at": "2025-06-19 09:21:02",
+        "age": "73",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia cardíaca, sin especificación",
+        "code": "BD1Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1458683894/unspecified"
+    },
+    {
+        "id": 563,
+        "created_at": "2025-06-18 08:54:47",
+        "age": "68",
+        "specialty": "Medicina Interna",
+        "text": "Infarto agudo de miocardio con elevación del segmento ST",
+        "code": "BA41.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/391388807"
+    },
+    {
+        "id": 562,
+        "created_at": "2025-06-18 08:13:36",
+        "age": "45",
+        "specialty": "Medicina Interna",
+        "text": "Otra colitis ulcerosa, sin especificación",
+        "code": "DD71.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/784669405/unspecified"
+    },
+    {
+        "id": 559,
+        "created_at": "2025-06-17 14:04:41",
+        "age": "75",
+        "specialty": "Medicina Interna",
+        "text": "Neumonía, organismo sin especificación",
+        "code": "CA40.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/142052508/unspecified"
+    },
+    {
+        "id": 557,
+        "created_at": "2025-06-17 13:28:26",
+        "age": "64",
+        "specialty": "Medicina Interna",
+        "text": "Infección urinaria por Klebsiella pneumoniae, localización no especificada",
+        "code": "GC08.1",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/109033803"
+    },
+    {
+        "id": 558,
+        "created_at": "2025-06-17 12:34:03",
+        "age": "72",
+        "specialty": "Medicina Interna",
+        "text": "Hipertensión esencial, sin especificación",
+        "code": "BA00.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/761947693/unspecified"
+    },
+    {
+        "id": 554,
+        "created_at": "2025-06-17 11:40:14",
+        "age": "45",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia renal crónica de grado 5",
+        "code": "GB61.5",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/820638928"
+    },
+    {
+        "id": 552,
+        "created_at": "2025-06-17 08:47:31",
+        "age": "77",
+        "specialty": "Sin definir",
+        "text": "Polineuropatía desmielinizante inflamatoria aguda",
+        "code": "8C01.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1196874419"
+    },
+    {
+        "id": 550,
+        "created_at": "2025-06-16 11:15:47",
+        "age": "87",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia cardíaca crónica",
+        "code": "BD1Z&XT8W",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1458683894/unspecified &  //id.who.int/icd/release/11/2024-01/mms/490003542"
+    },
+    {
+        "id": 549,
+        "created_at": "2025-06-16 10:27:17",
+        "age": "90",
+        "specialty": "Medicina Interna",
+        "text": "Neumonía, organismo sin especificación",
+        "code": "CA40.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/142052508/unspecified"
+    },
+    {
+        "id": 532,
+        "created_at": "2025-06-13 12:03:23",
+        "age": "56",
+        "specialty": "Medicina Interna",
+        "text": "Algunas enfermedades especificadas del hígado",
+        "code": "DB99",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/224323205"
+    },
+    {
+        "id": 539,
+        "created_at": "2025-06-13 11:59:05",
+        "age": "56",
+        "specialty": "Medicina Interna",
+        "text": "Trombosis de la vena cava",
+        "code": "BD71.1",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/2000974704"
+    },
+    {
+        "id": 531,
+        "created_at": "2025-06-13 11:33:35",
+        "age": "67",
+        "specialty": "Medicina Interna",
+        "text": "Pielonefritis bacteriana aguda",
+        "code": "GB51&XN74M",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/441183088 &  //id.who.int/icd/release/11/2024-01/mms/83217129"
+    },
+    {
+        "id": 524,
+        "created_at": "2025-06-12 10:12:11",
+        "age": "83",
+        "specialty": "Medicina Interna",
+        "text": "Tromboembolia pulmonar aguda",
+        "code": "BB00.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/74279006"
+    },
+    {
+        "id": 515,
+        "created_at": "2025-06-11 18:07:02",
+        "age": "62",
+        "specialty": "Medicina Interna",
+        "text": "Neumonía bacteriana, sin especificación",
+        "code": "CA40.0Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1323682030/unspecified"
+    },
+    {
+        "id": 514,
+        "created_at": "2025-06-11 16:52:56",
+        "age": "76",
+        "specialty": "Medicina Interna",
+        "text": "Demencia debida a una enfermedad cerebrovascular",
+        "code": "6D81",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1365258270"
+    },
+    {
+        "id": 521,
+        "created_at": "2025-06-11 16:07:25",
+        "age": "38",
+        "specialty": "Medicina Interna",
+        "text": "Pielonefritis aguda",
+        "code": "GB51",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/441183088"
+    },
+    {
+        "id": 520,
+        "created_at": "2025-06-11 15:36:21",
+        "age": "25",
+        "specialty": "Medicina Interna",
+        "text": "Cetoacidosis diabética sin coma",
+        "code": "5A22.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/540530695"
+    },
+    {
+        "id": 518,
+        "created_at": "2025-06-11 13:03:56",
+        "age": "53",
+        "specialty": "Medicina Interna",
+        "text": "Angina de pecho, sin especificación",
+        "code": "BA40.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/718946808/unspecified"
+    },
+    {
+        "id": 517,
+        "created_at": "2025-06-11 10:59:28",
+        "age": "74",
+        "specialty": "Medicina Interna",
+        "text": "Cardiopatía isquémica aguda, sin especificación",
+        "code": "BA4Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1829545371/unspecified"
+    },
+    {
+        "id": 511,
+        "created_at": "2025-06-11 09:31:31",
+        "age": "82",
+        "specialty": "Medicina Interna",
+        "text": "Neumonía bacteriana, sin especificación",
+        "code": "CA40.0Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1323682030/unspecified"
+    },
+    {
+        "id": 502,
+        "created_at": "2025-06-10 15:46:11",
+        "age": "77",
+        "specialty": "Medicina Interna",
+        "text": "Angina inestable",
+        "code": "BA40.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/253490233"
+    },
+    {
+        "id": 500,
+        "created_at": "2025-06-10 12:56:05",
+        "age": "57",
+        "specialty": "Medicina Interna",
+        "text": "Neumonía viral, sin especificación",
+        "code": "CA40.1Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1024154490/unspecified"
+    },
+    {
+        "id": 499,
+        "created_at": "2025-06-10 12:18:26",
+        "age": "72",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia respiratoria aguda de tipo I",
+        "code": "CB41.00",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/2024199586"
+    },
+    {
+        "id": 504,
+        "created_at": "2025-06-10 10:21:11",
+        "age": "56",
+        "specialty": "Medicina Interna",
+        "text": "Absceso piógeno de la piel",
+        "code": "1B75.3",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1324834502"
+    },
+    {
+        "id": 503,
+        "created_at": "2025-06-10 08:16:06",
+        "age": "62",
+        "specialty": "Medicina Interna",
+        "text": "Infarto agudo de miocardio sin elevación del segmento ST",
+        "code": "BA41.1",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/680129526"
+    },
+    {
+        "id": 494,
+        "created_at": "2025-06-09 14:17:51",
+        "age": "56",
+        "specialty": "Medicina Interna",
+        "text": "Hiperplasia de la próstata",
+        "code": "GA90",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/978159279"
+    },
+    {
+        "id": 492,
+        "created_at": "2025-06-09 13:37:28",
+        "age": "39",
+        "specialty": "Medicina Interna",
+        "text": "Hemorragia gastrointestinal, sin especificación",
+        "code": "ME24.9Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/2044414353/unspecified"
+    },
+    {
+        "id": 487,
+        "created_at": "2025-06-07 09:46:21",
+        "age": "58",
+        "specialty": "Medicina Interna",
+        "text": "Neumonía, organismo sin especificación",
+        "code": "CA40.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/142052508/unspecified"
+    },
+    {
+        "id": 486,
+        "created_at": "2025-06-06 13:16:16",
+        "age": "73",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia renal crónica de grado 5",
+        "code": "GB61.5",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/820638928"
+    },
+    {
+        "id": 483,
+        "created_at": "2025-06-06 12:06:17",
+        "age": "56",
+        "specialty": "Medicina Interna",
+        "text": "ￚlcera gastroduodenal hemorrágica aguda",
+        "code": "DA60.Y&XT5R/ME24.90",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1437411258/other &  //id.who.int/icd/release/11/2024-01/mms/786106375 /  //id.who.int/icd/release/11/2024-01/mms/294460566"
+    },
+    {
+        "id": 482,
+        "created_at": "2025-06-06 11:51:25",
+        "age": "61",
+        "specialty": "Medicina Interna",
+        "text": "Cetoacidosis diabética sin coma",
+        "code": "5A22.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/540530695"
+    },
+    {
+        "id": 479,
+        "created_at": "2025-06-06 09:16:18",
+        "age": "82",
+        "specialty": "Medicina Interna",
+        "text": "Estado hiperglucémico hiperosmolar diabético, sin especificación",
+        "code": "5A20.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/463969617/unspecified"
+    },
+    {
+        "id": 468,
+        "created_at": "2025-06-05 17:19:45",
+        "age": "79",
+        "specialty": "Medicina Interna",
+        "text": "Influenza debida a virus de la influenza estacional identificado",
+        "code": "1E30",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/753780243"
+    },
+    {
+        "id": 472,
+        "created_at": "2025-06-05 14:23:37",
+        "age": "70",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia cardíaca congestiva crónica",
+        "code": "BD10&XT8W",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/2136808878 &  //id.who.int/icd/release/11/2024-01/mms/490003542"
+    },
+    {
+        "id": 471,
+        "created_at": "2025-06-05 13:33:43",
+        "age": "53",
+        "specialty": "Medicina Interna",
+        "text": "Influenza debida a virus de la influenza estacional identificado",
+        "code": "1E30",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/753780243"
+    },
+    {
+        "id": 469,
+        "created_at": "2025-06-05 12:07:49",
+        "age": "40",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia respiratoria, sin especificación",
+        "code": "CB41.2Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1609027855/unspecified"
+    },
+    {
+        "id": 473,
+        "created_at": "2025-06-05 11:18:12",
+        "age": "36",
+        "specialty": "Medicina Interna",
+        "text": "Patrón nocivo de uso de cocaína, sin especificación",
+        "code": "6C45.1Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/275218837/unspecified"
+    },
+    {
+        "id": 465,
+        "created_at": "2025-06-05 09:40:08",
+        "age": "66",
+        "specialty": "Medicina Interna",
+        "text": "Taquiarritmia supraventricular, sin especificación",
+        "code": "BC81.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/113146812/unspecified"
+    },
+    {
+        "id": 464,
+        "created_at": "2025-06-04 11:17:44",
+        "age": "27",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia cardíaca crónica",
+        "code": "BD1Z&XT8W",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1458683894/unspecified &  //id.who.int/icd/release/11/2024-01/mms/490003542"
+    },
+    {
+        "id": 455,
+        "created_at": "2025-06-03 14:10:51",
+        "age": "73",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia respiratoria aguda, sin especificación",
+        "code": "CB41.0Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/875272781/unspecified"
+    },
+    {
+        "id": 454,
+        "created_at": "2025-06-03 14:07:51",
+        "age": "71",
+        "specialty": "Medicina Interna",
+        "text": "Infarto agudo del miocardio, sin especificación",
+        "code": "BA41.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1334938734/unspecified"
+    },
+    {
+        "id": 458,
+        "created_at": "2025-06-03 12:51:19",
+        "age": "86",
+        "specialty": "Medicina Interna",
+        "text": "Neumonía bacteriana, sin especificación",
+        "code": "CA40.0Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1323682030/unspecified"
+    },
+    {
+        "id": 453,
+        "created_at": "2025-06-03 10:35:24",
+        "age": "39",
+        "specialty": "Medicina Interna",
+        "text": "Oclusión arterial retiniana",
+        "code": "9B74.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1344536007"
+    },
+    {
+        "id": 448,
+        "created_at": "2025-06-02 15:07:03",
+        "age": "61",
+        "specialty": "Medicina Interna",
+        "text": "Diabetes mellitus no controlada o inestable",
+        "code": "5A24",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1156295616"
+    },
+    {
+        "id": 450,
+        "created_at": "2025-06-02 13:44:54",
+        "age": "63",
+        "specialty": "Medicina Interna",
+        "text": "Catatonia, sin especificación",
+        "code": "6A4Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/486722075/unspecified"
+    },
+    {
+        "id": 452,
+        "created_at": "2025-06-02 12:02:48",
+        "age": "63",
+        "specialty": "Medicina Interna",
+        "text": "Cardiopatía isquémica aguda, sin especificación",
+        "code": "BA4Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1829545371/unspecified"
+    },
+    {
+        "id": 445,
+        "created_at": "2025-06-02 09:14:33",
+        "age": "86",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia respiratoria aguda de tipo I",
+        "code": "CB41.00",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/2024199586"
+    },
+    {
+        "id": 442,
+        "created_at": "2025-05-31 21:09:25",
+        "age": "78",
+        "specialty": "Medicina Interna",
+        "text": "Neumonía, organismo sin especificación",
+        "code": "CA40.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/142052508/unspecified"
+    },
+    {
+        "id": 439,
+        "created_at": "2025-05-30 17:16:16",
+        "age": "92",
+        "specialty": "Medicina Interna",
+        "text": "Celulitis orbitaria",
+        "code": "9A21.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1330743591"
+    },
+    {
+        "id": 433,
+        "created_at": "2025-05-30 16:54:03",
+        "age": "76",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia renal crónica de grado 5",
+        "code": "GB61.5",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/820638928"
+    },
+    {
+        "id": 432,
+        "created_at": "2025-05-30 15:51:28",
+        "age": "25",
+        "specialty": "Medicina Interna",
+        "text": "Síncope y colapso, sin especificación",
+        "code": "MG45.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1418136013/unspecified"
+    },
+    {
+        "id": 437,
+        "created_at": "2025-05-30 13:24:10",
+        "age": "50",
+        "specialty": "Medicina Interna",
+        "text": "Enfermedad pulmonar obstructiva crónica, sin especificación",
+        "code": "CA22.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/133207228/unspecified"
+    },
+    {
+        "id": 434,
+        "created_at": "2025-05-30 12:21:55",
+        "age": "75",
+        "specialty": "Medicina Interna",
+        "text": "Infección urinaria por Klebsiella pneumoniae, localización no especificada",
+        "code": "GC08.1",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/109033803"
+    },
+    {
+        "id": 438,
+        "created_at": "2025-05-30 11:33:04",
+        "age": "38",
+        "specialty": "Medicina Interna",
+        "text": "Otra neumonía especificada",
+        "code": "CA40.Y",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/142052508/other"
+    },
+    {
+        "id": 430,
+        "created_at": "2025-05-29 16:16:51",
+        "age": "79",
+        "specialty": "Medicina Interna",
+        "text": "Hipoosmolalidad o hiponatremia",
+        "code": "5C72",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/761639036"
+    },
+    {
+        "id": 426,
+        "created_at": "2025-05-29 13:51:33",
+        "age": "70",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia respiratoria aguda, sin especificación",
+        "code": "CB41.0Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/875272781/unspecified"
+    },
+    {
+        "id": 429,
+        "created_at": "2025-05-29 13:01:33",
+        "age": "80",
+        "specialty": "Medicina Interna",
+        "text": "Tromboembolia pulmonar aguda",
+        "code": "BB00.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/74279006"
+    },
+    {
+        "id": 428,
+        "created_at": "2025-05-29 10:59:55",
+        "age": "25",
+        "specialty": "Psiquiatría Adulto",
+        "text": "Trastorno de personalidad, sin especificación",
+        "code": "6D10.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/941859884/unspecified"
+    },
+    {
+        "id": 423,
+        "created_at": "2025-05-28 15:26:06",
+        "age": "70",
+        "specialty": "Medicina Interna",
+        "text": "Hipercalcemia",
+        "code": "5B91.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/885246206"
+    },
+    {
+        "id": 421,
+        "created_at": "2025-05-28 12:52:25",
+        "age": "34",
+        "specialty": "Medicina Interna",
+        "text": "Influenza debida a virus de la influenza estacional identificado",
+        "code": "1E30",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/753780243"
+    },
+    {
+        "id": 422,
+        "created_at": "2025-05-28 11:26:28",
+        "age": "82",
+        "specialty": "Medicina Interna",
+        "text": "Hemorragia intracerebral, sin especificación",
+        "code": "8B00.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/873092535/unspecified"
+    },
+    {
+        "id": 424,
+        "created_at": "2025-05-28 09:40:11",
+        "age": "55",
+        "specialty": "Medicina Interna",
+        "text": "Cardiopatía isquémica aguda, sin especificación",
+        "code": "BA4Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1829545371/unspecified"
+    },
+    {
+        "id": 412,
+        "created_at": "2025-05-27 13:41:17",
+        "age": "67",
+        "specialty": "Medicina Interna",
+        "text": "Infección urinaria por Klebsiella pneumoniae, localización no especificada",
+        "code": "GC08.1",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/109033803"
+    },
+    {
+        "id": 414,
+        "created_at": "2025-05-27 13:10:04",
+        "age": "42",
+        "specialty": "Medicina Interna",
+        "text": "Cistitis, sin especificación",
+        "code": "GC00.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1181120673/unspecified"
+    },
+    {
+        "id": 418,
+        "created_at": "2025-05-27 11:49:36",
+        "age": "73",
+        "specialty": "Medicina Interna",
+        "text": "Otro síncope y colapso especificado",
+        "code": "MG45.Y",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1418136013/other"
+    },
+    {
+        "id": 417,
+        "created_at": "2025-05-27 11:12:35",
+        "age": "70",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia renal crónica de grado 5 en hemodialisis",
+        "code": "GB61.5",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/820638928"
+    },
+    {
+        "id": 400,
+        "created_at": "2025-05-26 17:05:47",
+        "age": "61",
+        "specialty": "Medicina Interna",
+        "text": "Neumonía adquirida en el hospital",
+        "code": "CA40.Z&XB25",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/142052508/unspecified &  //id.who.int/icd/release/11/2024-01/mms/1674014893"
+    },
+    {
+        "id": 394,
+        "created_at": "2025-05-26 13:50:20",
+        "age": "68",
+        "specialty": "Medicina Interna",
+        "text": "Sepsis con choque séptico",
+        "code": "1G41/GB51&XK8G&XN74M",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1683090852 /  //id.who.int/icd/release/11/2024-01/mms/441183088 &  //id.who.int/icd/release/11/2024-01/mms/271422288 &  //id.who.int/icd/release/11/2024-01/mms/83217129"
+    },
+    {
+        "id": 410,
+        "created_at": "2025-05-26 13:17:34",
+        "age": "77",
+        "specialty": "Medicina Interna",
+        "text": "Influenza debida a virus de la influenza estacional identificado",
+        "code": "1E30",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/753780243"
+    },
+    {
+        "id": 408,
+        "created_at": "2025-05-26 12:11:43",
+        "age": "81",
+        "specialty": "Medicina Interna",
+        "text": "Enfermedad pulmonar obstructiva crónica con neumonía",
+        "code": "CA22.1/CA40.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/143605159 /  //id.who.int/icd/release/11/2024-01/mms/142052508/unspecified"
+    },
+    {
+        "id": 401,
+        "created_at": "2025-05-26 11:07:38",
+        "age": "40",
+        "specialty": "Medicina Interna",
+        "text": "Intento de suicidio",
+        "code": "MB23.R",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/179322472"
+    },
+    {
+        "id": 405,
+        "created_at": "2025-05-26 10:22:33",
+        "age": "23",
+        "specialty": "Psiquiatría Adulto",
+        "text": "Lesión autoinfligida intencionalmente por exposición a múltiples fármacos, medicamentos o sustancias biológicas o a sus efectos nocivos",
+        "code": "PC99",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/153928803"
+    },
+    {
+        "id": 389,
+        "created_at": "2025-05-25 09:56:44",
+        "age": "60",
+        "specialty": "Medicina Interna",
+        "text": "Otro lupus eritematoso especificado",
+        "code": "4A40.Y",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1443317238/other"
+    },
+    {
+        "id": 375,
+        "created_at": "2025-05-23 12:28:47",
+        "age": "71",
+        "specialty": "Medicina Interna",
+        "text": "Otros trastornos especificados de la conciencia",
+        "code": "8E2Y",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/81068077/other"
+    },
+    {
+        "id": 373,
+        "created_at": "2025-05-23 11:23:12",
+        "age": "63",
+        "specialty": "Medicina Interna",
+        "text": "Infecciones intestinales por Clostridium difficile",
+        "code": "1A04",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/250688797"
+    },
+    {
+        "id": 360,
+        "created_at": "2025-05-20 18:54:14",
+        "age": "69",
+        "specialty": "Medicina Interna",
+        "text": "Infección urinaria por Escherichia coli, localización no especificada",
+        "code": "GC08.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/905570639"
+    },
+    {
+        "id": 357,
+        "created_at": "2025-05-20 18:33:26",
+        "age": "29",
+        "specialty": "Medicina Interna",
+        "text": "Otra osteomielitis aguda",
+        "code": "FB84.1",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1498660177"
+    },
+    {
+        "id": 356,
+        "created_at": "2025-05-20 15:56:11",
+        "age": "85",
+        "specialty": "Medicina Interna",
+        "text": "Neumonía, organismo sin especificación",
+        "code": "CA40.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/142052508/unspecified"
+    },
+    {
+        "id": 354,
+        "created_at": "2025-05-20 15:14:38",
+        "age": "82",
+        "specialty": "Medicina Interna",
+        "text": "Neumonía bacteriana, sin especificación",
+        "code": "CA40.0Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1323682030/unspecified"
+    },
+    {
+        "id": 359,
+        "created_at": "2025-05-20 10:39:46",
+        "age": "63",
+        "specialty": "Medicina Interna",
+        "text": "Infección urinaria, localización y microbio patógeno no especificados",
+        "code": "GC08.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1848472780/unspecified"
+    },
+    {
+        "id": 350,
+        "created_at": "2025-05-20 09:35:50",
+        "age": "66",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia respiratoria",
+        "code": "CB41",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/370028006"
+    },
+    {
+        "id": 344,
+        "created_at": "2025-05-18 10:20:33",
+        "age": "67",
+        "specialty": "Medicina Interna",
+        "text": "Síncope y colapso, sin especificación",
+        "code": "MG45.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1418136013/unspecified"
+    },
+    {
+        "id": 341,
+        "created_at": "2025-05-17 16:02:55",
+        "age": "80",
+        "specialty": "Medicina Interna",
+        "text": "Miocardiopatía por estrés",
+        "code": "BC43.5",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/478139552"
+    },
+    {
+        "id": 331,
+        "created_at": "2025-05-16 10:14:35",
+        "age": "81",
+        "specialty": "Medicina Interna",
+        "text": "Síndrome diarreico",
+        "code": "DA90.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1470910753"
+    },
+    {
+        "id": 327,
+        "created_at": "2025-05-15 15:04:09",
+        "age": "62",
+        "specialty": "Medicina Interna",
+        "text": "Síndrome de muerte súbita arrítmica",
+        "code": "BC64",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1833795233"
+    },
+    {
+        "id": 319,
+        "created_at": "2025-05-15 12:40:11",
+        "age": "61",
+        "specialty": "Medicina Interna",
+        "text": "Infarto agudo de miocardio sin elevación del segmento ST",
+        "code": "BA41.1",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/680129526"
+    },
+    {
+        "id": 326,
+        "created_at": "2025-05-15 12:04:59",
+        "age": "26",
+        "specialty": "Psiquiatría Adulto",
+        "text": "Trastorno de personalidad, sin especificación",
+        "code": "6D10.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/941859884/unspecified"
+    },
+    {
+        "id": 325,
+        "created_at": "2025-05-15 11:47:16",
+        "age": "76",
+        "specialty": "Medicina Interna",
+        "text": "Infarto agudo de miocardio sin elevación de ST, pared anterior",
+        "code": "BA41.1&XA7RE3",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/680129526 &  //id.who.int/icd/release/11/2024-01/mms/660512363"
+    },
+    {
+        "id": 323,
+        "created_at": "2025-05-15 09:21:33",
+        "age": "76",
+        "specialty": "Medicina Interna",
+        "text": "Sepsis con choque séptico",
+        "code": "1G41",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1683090852"
+    },
+    {
+        "id": 309,
+        "created_at": "2025-05-14 12:56:01",
+        "age": "59",
+        "specialty": "Medicina Interna",
+        "text": "Infarto agudo de miocardio sin elevación del segmento ST",
+        "code": "BA41.1",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/680129526"
+    },
+    {
+        "id": 315,
+        "created_at": "2025-05-14 11:16:43",
+        "age": "81",
+        "specialty": "Medicina Interna",
+        "text": "Delirium, de causa no especificada o desconocida",
+        "code": "6D70.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/897917531/unspecified"
+    },
+    {
+        "id": 299,
+        "created_at": "2025-05-13 15:45:45",
+        "age": "37",
+        "specialty": "Medicina Interna",
+        "text": "Mielopatía",
+        "code": "8B42",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/740682437"
+    },
+    {
+        "id": 302,
+        "created_at": "2025-05-13 13:42:44",
+        "age": "86",
+        "specialty": "Medicina Interna",
+        "text": "Hiperplasia de la próstata",
+        "code": "GA90",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/978159279"
+    },
+    {
+        "id": 301,
+        "created_at": "2025-05-13 12:27:21",
+        "age": "68",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia renal crónica de grado 5",
+        "code": "GB61.5",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/820638928"
+    },
+    {
+        "id": 297,
+        "created_at": "2025-05-13 11:06:37",
+        "age": "73",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia respiratoria, sin especificación",
+        "code": "CB41.2Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1609027855/unspecified"
+    },
+    {
+        "id": 300,
+        "created_at": "2025-05-13 07:01:27",
+        "age": "56",
+        "specialty": "Medicina Interna",
+        "text": "Púrpura trombocitopénica inmunitaria",
+        "code": "3B64.10",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/364346400"
+    },
+    {
+        "id": 286,
+        "created_at": "2025-05-11 11:05:01",
+        "age": "78",
+        "specialty": "Medicina Interna",
+        "text": "Anafilaxia provocada por medicamentos",
+        "code": "4A84.1&XS2Y",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1200133657 &  //id.who.int/icd/release/11/2024-01/mms/1839152580"
+    },
+    {
+        "id": 279,
+        "created_at": "2025-05-09 16:02:04",
+        "age": "22",
+        "specialty": "Medicina Interna",
+        "text": "Enteritis eosinofílica",
+        "code": "DA94.21",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/448959702"
+    },
+    {
+        "id": 271,
+        "created_at": "2025-05-09 15:57:00",
+        "age": "74",
+        "specialty": "Medicina Interna",
+        "text": "Enteritis eosinofílica",
+        "code": "DA94.21",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/448959702"
+    },
+    {
+        "id": 270,
+        "created_at": "2025-05-09 13:08:23",
+        "age": "59",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia renal aguda de grado 1",
+        "code": "GB60.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/574502222"
+    },
+    {
+        "id": 276,
+        "created_at": "2025-05-09 12:50:45",
+        "age": "47",
+        "specialty": "Medicina Interna",
+        "text": "Hipertensión esencial, sin especificación",
+        "code": "BA00.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/761947693/unspecified"
+    },
+    {
+        "id": 268,
+        "created_at": "2025-05-09 09:32:45",
+        "age": "64",
+        "specialty": "Medicina Interna",
+        "text": "Diabetes mellitus tipo 2",
+        "code": "5A11",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/119724091"
+    },
+    {
+        "id": 267,
+        "created_at": "2025-05-08 13:39:21",
+        "age": "67",
+        "specialty": "Medicina Interna",
+        "text": "Síndrome diarreico",
+        "code": "DA90.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1470910753"
+    },
+    {
+        "id": 266,
+        "created_at": "2025-05-07 14:46:39",
+        "age": "69",
+        "specialty": "Medicina Interna",
+        "text": "Enfermedades de la arteria coronaria, sin especificación [Arteria nodal sinoauricular]",
+        "code": "BA8Z&XA7TB5",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1059873720/unspecified &  //id.who.int/icd/release/11/2024-01/mms/1499075415"
+    },
+    {
+        "id": 98,
+        "created_at": "2025-05-07 13:08:55",
+        "age": "37",
+        "specialty": "Medicina Interna",
+        "text": "Infarto subsecuente del miocardio, sin elevación del segmento ST",
+        "code": "BA42.1",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/2070501946"
+    },
+    {
+        "id": 156,
+        "created_at": "2025-05-07 12:57:07",
+        "age": "98",
+        "specialty": "Medicina Interna",
+        "text": "ￚlcera duodenal aguda",
+        "code": "DA63.Y&XT5R",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/553678663/other &  //id.who.int/icd/release/11/2024-01/mms/786106375"
+    },
+    {
+        "id": 264,
+        "created_at": "2025-05-07 10:28:16",
+        "age": "55",
+        "specialty": "Medicina Interna",
+        "text": "Trombosis venosa profunda de la extremidad inferior",
+        "code": "BD71.4",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/615253204"
+    },
+    {
+        "id": 155,
+        "created_at": "2025-05-07 06:47:46",
+        "age": "56",
+        "specialty": "Medicina Interna",
+        "text": "Cirrosis hepática",
+        "code": "DB93.1",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1781315693"
+    },
+    {
+        "id": 154,
+        "created_at": "2025-05-06 16:05:11",
+        "age": "65",
+        "specialty": "Medicina Interna",
+        "text": "Fibrosis pulmonar idiopática",
+        "code": "CB03.4",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1074069640"
+    },
+    {
+        "id": 203,
+        "created_at": "2025-05-06 15:31:01",
+        "age": "57",
+        "specialty": "Medicina Interna",
+        "text": "Otros dispositivos cardiovasculares especificados asociados con lesión o daño: dispositivos terapéuticos, no quirúrgicos o de rehabilitación",
+        "code": "PK91.1Y",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/741790660/other"
+    },
+    {
+        "id": 153,
+        "created_at": "2025-05-06 14:48:25",
+        "age": "74",
+        "specialty": "Medicina Interna",
+        "text": "Infarto agudo del miocardio, sin especificación",
+        "code": "BA41.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1334938734/unspecified"
+    },
+    {
+        "id": 202,
+        "created_at": "2025-05-06 14:10:08",
+        "age": "72",
+        "specialty": "Medicina Interna",
+        "text": "Neumonía bacteriana, sin especificación",
+        "code": "CA40.0Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1323682030/unspecified"
+    },
+    {
+        "id": 95,
+        "created_at": "2025-05-06 13:24:22",
+        "age": "52",
+        "specialty": "Medicina Interna",
+        "text": "Angina de pecho, sin especificación",
+        "code": "BA40.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/718946808/unspecified"
+    },
+    {
+        "id": 263,
+        "created_at": "2025-05-06 11:44:22",
+        "age": "50",
+        "specialty": "Medicina Interna",
+        "text": "Absceso pulmonar con neumonía",
+        "code": "CA43.1",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1090376918"
+    },
+    {
+        "id": 46,
+        "created_at": "2025-05-06 11:43:39",
+        "age": "50",
+        "specialty": "Medicina Interna",
+        "text": "Cetoacidosis diabética sin coma",
+        "code": "5A22.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/540530695"
+    },
+    {
+        "id": 149,
+        "created_at": "2025-05-03 13:23:56",
+        "age": "55",
+        "specialty": "Medicina Interna",
+        "text": "Neumonía, organismo sin especificación",
+        "code": "CA40.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/142052508/unspecified"
+    },
+    {
+        "id": 42,
+        "created_at": "2025-05-03 12:56:20",
+        "age": "83",
+        "specialty": "Medicina Interna",
+        "text": "Hipertensión esencial, sin especificación",
+        "code": "BA00.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/761947693/unspecified"
+    },
+    {
+        "id": 198,
+        "created_at": "2025-05-03 12:04:25",
+        "age": "71",
+        "specialty": "Medicina Interna",
+        "text": "Hemorragia gastrointestinal, sin especificación",
+        "code": "ME24.9Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/2044414353/unspecified"
+    },
+    {
+        "id": 260,
+        "created_at": "2025-05-03 11:28:55",
+        "age": "82",
+        "specialty": "Medicina Interna",
+        "text": "Enfermedad pulmonar obstructiva crónica con exacerbación aguda, no especificada",
+        "code": "CA22.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1665365733"
+    },
+    {
+        "id": 41,
+        "created_at": "2025-05-03 10:30:34",
+        "age": "58",
+        "specialty": "Medicina Interna",
+        "text": "Enfermedad renal crónica, sin especificación de grado",
+        "code": "GB61.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/412389819/unspecified"
+    },
+    {
+        "id": 90,
+        "created_at": "2025-05-02 06:10:40",
+        "age": "83",
+        "specialty": "Medicina Interna",
+        "text": "Infarto agudo del miocardio, sin especificación",
+        "code": "BA41.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1334938734/unspecified"
+    },
+    {
+        "id": 146,
+        "created_at": "2025-05-01 02:10:59",
+        "age": "53",
+        "specialty": "Medicina Interna",
+        "text": "Cirrosis hepática",
+        "code": "DB93.1",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1781315693"
+    },
+    {
+        "id": 145,
+        "created_at": "2025-04-30 14:22:15",
+        "age": "45",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia respiratoria, sin especificación",
+        "code": "CB41.2Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1609027855/unspecified"
+    },
+    {
+        "id": 196,
+        "created_at": "2025-04-30 11:26:48",
+        "age": "56",
+        "specialty": "Psiquiatría Adulto",
+        "text": "Trastorno depresivo recurrente, episodio actual moderado sin síntomas psicóticos",
+        "code": "6A71.1",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/187348663"
+    },
+    {
+        "id": 89,
+        "created_at": "2025-04-30 10:59:32",
+        "age": "80",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia respiratoria de tipo II, no especificada como aguda o crónica",
+        "code": "CB41.21",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1552748079"
+    },
+    {
+        "id": 35,
+        "created_at": "2025-04-30 09:18:08",
+        "age": "37",
+        "specialty": "Medicina Interna",
+        "text": "Taquiarritmia supraventricular, sin especificación",
+        "code": "BC81.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/113146812/unspecified"
+    },
+    {
+        "id": 87,
+        "created_at": "2025-04-29 16:06:00",
+        "age": "72",
+        "specialty": "Medicina Interna",
+        "text": "Otras condropatías especificadas",
+        "code": "FB82.Y",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/504298187/other"
+    },
+    {
+        "id": 85,
+        "created_at": "2025-04-29 12:24:51",
+        "age": "75",
+        "specialty": "Medicina Interna",
+        "text": "Accidente cerebrovascular isquémico, sin especificación",
+        "code": "8B11.5Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1614716959/unspecified"
+    },
+    {
+        "id": 194,
+        "created_at": "2025-04-29 11:08:15",
+        "age": "61",
+        "specialty": "Medicina Interna",
+        "text": "Infarto agudo del miocardio, sin especificación",
+        "code": "BA41.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1334938734/unspecified"
+    },
+    {
+        "id": 141,
+        "created_at": "2025-04-28 16:02:15",
+        "age": "28",
+        "specialty": "Medicina Interna",
+        "text": "Erupción cutánea maculopapulosa aguda",
+        "code": "ME62.3",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1238846563"
+    },
+    {
+        "id": 138,
+        "created_at": "2025-04-28 14:19:27",
+        "age": "74",
+        "specialty": "Medicina Interna",
+        "text": "Enfermedad pulmonar obstructiva crónica con exacerbación aguda, no especificada",
+        "code": "CA22.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1665365733"
+    },
+    {
+        "id": 193,
+        "created_at": "2025-04-28 13:31:33",
+        "age": "45",
+        "specialty": "Medicina Interna",
+        "text": "Pancreatitis aguda, sin especificación",
+        "code": "DC31.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/698285441/unspecified"
+    },
+    {
+        "id": 192,
+        "created_at": "2025-04-28 13:19:55",
+        "age": "19",
+        "specialty": "Psiquiatría Adulto",
+        "text": "Trastorno de adaptación",
+        "code": "6B43",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/264310751"
+    },
+    {
+        "id": 30,
+        "created_at": "2025-04-27 17:31:33",
+        "age": "91",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia cardíaca crónica",
+        "code": "BD1Z&XT8W",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1458683894/unspecified &  //id.who.int/icd/release/11/2024-01/mms/490003542"
+    },
+    {
+        "id": 253,
+        "created_at": "2025-04-26 16:58:54",
+        "age": "76",
+        "specialty": "Medicina Interna",
+        "text": "Arritmia cardíaca, sin especificación",
+        "code": "BC9Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1457291912/unspecified"
+    },
+    {
+        "id": 251,
+        "created_at": "2025-04-25 16:59:11",
+        "age": "53",
+        "specialty": "Medicina Interna",
+        "text": "Hipertensión esencial, sin especificación con mal control",
+        "code": "BA00.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/761947693/unspecified"
+    },
+    {
+        "id": 249,
+        "created_at": "2025-04-25 13:49:27",
+        "age": "74",
+        "specialty": "Medicina Interna",
+        "text": "Hipertensión esencial, sin especificación",
+        "code": "BA00.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/761947693/unspecified"
+    },
+    {
+        "id": 134,
+        "created_at": "2025-04-25 12:59:34",
+        "age": "81",
+        "specialty": "Medicina Interna",
+        "text": "Hemorragia gastrointestinal, sin especificación",
+        "code": "ME24.9Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/2044414353/unspecified"
+    },
+    {
+        "id": 247,
+        "created_at": "2025-04-24 14:08:35",
+        "age": "64",
+        "specialty": "Medicina Interna",
+        "text": "Angina inestable",
+        "code": "BA40.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/253490233"
+    },
+    {
+        "id": 246,
+        "created_at": "2025-04-24 09:47:29",
+        "age": "91",
+        "specialty": "Medicina Interna",
+        "text": "Anemia ferropénica adquirida hemorrágica, sin especificación",
+        "code": "3A00.0Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/942744561/unspecified"
+    },
+    {
+        "id": 79,
+        "created_at": "2025-04-24 09:24:32",
+        "age": "66",
+        "specialty": "Medicina Interna",
+        "text": "Várices esofágicas sangrantes",
+        "code": "DA26.00",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/949012083"
+    },
+    {
+        "id": 133,
+        "created_at": "2025-04-24 09:03:14",
+        "age": "53",
+        "specialty": "Medicina Interna",
+        "text": "Taquicardia auriculoventricular recíproca, sin especificación",
+        "code": "BC81.7Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/874098110/unspecified"
+    },
+    {
+        "id": 187,
+        "created_at": "2025-04-23 13:14:52",
+        "age": "73",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia respiratoria aguda de tipo I",
+        "code": "CB41.00",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/2024199586"
+    },
+    {
+        "id": 26,
+        "created_at": "2025-04-23 11:11:25",
+        "age": "68",
+        "specialty": "Medicina Interna",
+        "text": "Carcinoma de células renales del riñón, excepto de la pelvis renal",
+        "code": "2C90.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/825917541"
+    },
+    {
+        "id": 184,
+        "created_at": "2025-04-23 08:30:32",
+        "age": "71",
+        "specialty": "Medicina Interna",
+        "text": "Ajuste o manejo de un marcapasos cardíaco",
+        "code": "QB30.20",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/634592688"
+    },
+    {
+        "id": 76,
+        "created_at": "2025-04-22 11:47:48",
+        "age": "69",
+        "specialty": "Medicina Interna",
+        "text": "Enfermedad pulmonar obstructiva crónica con exacerbación aguda, no especificada",
+        "code": "CA22.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1665365733"
+    },
+    {
+        "id": 243,
+        "created_at": "2025-04-22 11:01:36",
+        "age": "69",
+        "specialty": "Medicina Interna",
+        "text": "Pielonefritis bacteriana aguda",
+        "code": "GB51&XN74M",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/441183088 &  //id.who.int/icd/release/11/2024-01/mms/83217129"
+    },
+    {
+        "id": 242,
+        "created_at": "2025-04-22 10:57:22",
+        "age": "92",
+        "specialty": "Medicina Interna",
+        "text": "Pielonefritis aguda",
+        "code": "GB51",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/441183088"
+    },
+    {
+        "id": 75,
+        "created_at": "2025-04-22 08:29:26",
+        "age": "18",
+        "specialty": "Medicina Interna",
+        "text": "Anemia ferropénica adquirida hemorrágica, sin especificación",
+        "code": "3A00.0Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/942744561/unspecified"
+    },
+    {
+        "id": 129,
+        "created_at": "2025-04-19 12:57:25",
+        "age": "74",
+        "specialty": "Medicina Interna",
+        "text": "Anemia debida a una enfermedad crónica, sin especificación",
+        "code": "3A71.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1981248479/unspecified"
+    },
+    {
+        "id": 22,
+        "created_at": "2025-04-18 17:13:00",
+        "age": "93",
+        "specialty": "Medicina Interna",
+        "text": "Infección urinaria, localización y microbio patógeno no especificados",
+        "code": "GC08.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1848472780/unspecified"
+    },
+    {
+        "id": 128,
+        "created_at": "2025-04-18 07:43:15",
+        "age": "73",
+        "specialty": "Medicina Interna",
+        "text": "Acidosis, sin especificación resuelta",
+        "code": "5C73.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1506336899/unspecified"
+    },
+    {
+        "id": 68,
+        "created_at": "2025-04-17 12:03:39",
+        "age": "86",
+        "specialty": "Medicina Interna",
+        "text": "Inflamación del colon",
+        "code": "1A40.0&XA03U9",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1160271562 &  //id.who.int/icd/release/11/2024-01/mms/578694909"
+    },
+    {
+        "id": 235,
+        "created_at": "2025-04-17 11:50:06",
+        "age": "81",
+        "specialty": "Medicina Interna",
+        "text": "Sepsis con choque séptico",
+        "code": "1G41",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1683090852"
+    },
+    {
+        "id": 125,
+        "created_at": "2025-04-17 10:44:50",
+        "age": "80",
+        "specialty": "Medicina Interna",
+        "text": "Neumonía bacteriana, sin especificación",
+        "code": "CA40.0Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1323682030/unspecified"
+    },
+    {
+        "id": 124,
+        "created_at": "2025-04-17 10:29:21",
+        "age": "60",
+        "specialty": "Medicina Interna",
+        "text": "Infarto agudo de miocardio con elevación del segmento ST",
+        "code": "BA41.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/391388807"
+    },
+    {
+        "id": 64,
+        "created_at": "2025-04-16 11:14:40",
+        "age": "79",
+        "specialty": "Medicina Interna",
+        "text": "Bloqueo auriculoventricular completo, sin especificación",
+        "code": "BC63.2Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1147105932/unspecified"
+    },
+    {
+        "id": 230,
+        "created_at": "2025-04-15 15:14:43",
+        "age": "74",
+        "specialty": "Medicina Interna",
+        "text": "Dispositivos cardiovasculares asociados con lesión o daño: catéter venoso central",
+        "code": "PK91.15",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/190565750"
+    },
+    {
+        "id": 229,
+        "created_at": "2025-04-15 14:42:49",
+        "age": "76",
+        "specialty": "Medicina Interna",
+        "text": "Otra hipertensión esencial especificada",
+        "code": "BA00.Y",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/761947693/other"
+    },
+    {
+        "id": 228,
+        "created_at": "2025-04-15 13:47:26",
+        "age": "71",
+        "specialty": "Medicina Interna",
+        "text": "Neumonía, organismo sin especificación",
+        "code": "CA40.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/142052508/unspecified"
+    },
+    {
+        "id": 224,
+        "created_at": "2025-04-14 15:57:34",
+        "age": "57",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia respiratoria crónica de tipo I",
+        "code": "CB41.10",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/189285942"
+    },
+    {
+        "id": 223,
+        "created_at": "2025-04-14 13:22:38",
+        "age": "33",
+        "specialty": "Medicina Interna",
+        "text": "Sepsis sin choque séptico",
+        "code": "1G40",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/622600769"
+    },
+    {
+        "id": 177,
+        "created_at": "2025-04-14 12:37:16",
+        "age": "32",
+        "specialty": "Psiquiatría Adulto",
+        "text": "Trastorno esquizoafectivo, episodios múltiples, en remisión parcial",
+        "code": "6A21.11",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/468697510"
+    },
+    {
+        "id": 14,
+        "created_at": "2025-04-14 10:34:00",
+        "age": "81",
+        "specialty": "Medicina Interna",
+        "text": "Enfermedad renal crónica, sin especificación de grado",
+        "code": "GB61.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/412389819/unspecified"
+    },
+    {
+        "id": 173,
+        "created_at": "2025-04-11 15:08:03",
+        "age": "74",
+        "specialty": "Medicina Interna",
+        "text": "Choque cardiogénico",
+        "code": "MG40.0",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1974956233"
+    },
+    {
+        "id": 221,
+        "created_at": "2025-04-11 11:17:47",
+        "age": "79",
+        "specialty": "Medicina Interna",
+        "text": "Trombosis venosa profunda de la extremidad inferior",
+        "code": "BD71.4&XK8G",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/615253204 &  //id.who.int/icd/release/11/2024-01/mms/271422288"
+    },
+    {
+        "id": 172,
+        "created_at": "2025-04-11 09:53:06",
+        "age": "58",
+        "specialty": "Medicina Interna",
+        "text": "Hipertensión esencial, sin especificación",
+        "code": "BA00.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/761947693/unspecified"
+    },
+    {
+        "id": 220,
+        "created_at": "2025-04-10 10:46:15",
+        "age": "45",
+        "specialty": "Medicina Interna",
+        "text": "Pancreatitis aguda, sin especificación",
+        "code": "DC31.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/698285441/unspecified"
+    },
+    {
+        "id": 60,
+        "created_at": "2025-04-10 10:43:05",
+        "age": "67",
+        "specialty": "Medicina Interna",
+        "text": "Cardiomiopatía isquémica, sin especificación",
+        "code": "BA51.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1259725625/unspecified"
+    },
+    {
+        "id": 170,
+        "created_at": "2025-04-10 10:33:20",
+        "age": "23",
+        "specialty": "Medicina Interna",
+        "text": "Hipoglucemia sin diabetes asociada POR gLIBENCLAMIDA",
+        "code": "5A41",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1004695600"
+    },
+    {
+        "id": 218,
+        "created_at": "2025-04-10 09:09:46",
+        "age": "59",
+        "specialty": "Medicina Interna",
+        "text": "Anemia ferropénica, sin especificación",
+        "code": "3A00.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1577750667/unspecified"
+    },
+    {
+        "id": 11,
+        "created_at": "2025-04-10 08:55:38",
+        "age": "67",
+        "specialty": "Medicina Interna",
+        "text": "Hemorragia gastrointestinal, sin especificación",
+        "code": "ME24.9Z/DA7Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/2044414353/unspecified /  //id.who.int/icd/release/11/2024-01/mms/914520008/unspecified"
+    },
+    {
+        "id": 9,
+        "created_at": "2025-04-09 14:39:43",
+        "age": "72",
+        "specialty": "Medicina Interna",
+        "text": "Angina estable",
+        "code": "BA40.1",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/216789527"
+    },
+    {
+        "id": 166,
+        "created_at": "2025-04-09 08:48:26",
+        "age": "80",
+        "specialty": "Medicina Interna",
+        "text": "Infarto agudo del miocardio, sin especificación",
+        "code": "BA41.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1334938734/unspecified"
+    },
+    {
+        "id": 109,
+        "created_at": "2025-04-08 15:00:10",
+        "age": "17",
+        "specialty": "Medicina Interna",
+        "text": "Reacciones cutáneas adversas a la medicación, sin especificación",
+        "code": "EH7Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/489508344/unspecified"
+    },
+    {
+        "id": 108,
+        "created_at": "2025-04-08 10:30:17",
+        "age": "60",
+        "specialty": "Medicina Interna",
+        "text": "Hipertensión esencial, sin especificación",
+        "code": "BA00.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/761947693/unspecified"
+    },
+    {
+        "id": 6,
+        "created_at": "2025-04-07 15:33:21",
+        "age": "77",
+        "specialty": "Medicina Interna",
+        "text": "Metástasis de neoplasia maligna a la pleura",
+        "code": "2D72",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1681363901"
+    },
+    {
+        "id": 5,
+        "created_at": "2025-04-07 12:46:10",
+        "age": "29",
+        "specialty": "Psiquiatría Adulto",
+        "text": "Dependencia de cocaína, sin especificación",
+        "code": "6C45.2Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1691013484/unspecified"
+    },
+    {
+        "id": 213,
+        "created_at": "2025-04-07 10:54:33",
+        "age": "46",
+        "specialty": "Psiquiatría Adulto",
+        "text": "Trastorno de personalidad, sin especificación",
+        "code": "6D10.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/941859884/unspecified"
+    },
+    {
+        "id": 163,
+        "created_at": "2025-04-05 13:44:05",
+        "age": "62",
+        "specialty": "Medicina Interna",
+        "text": "Accidente cerebrovascular isquémico, sin especificación",
+        "code": "8B11.5Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1614716959/unspecified"
+    },
+    {
+        "id": 57,
+        "created_at": "2025-04-04 11:12:53",
+        "age": "77",
+        "specialty": "Medicina Interna",
+        "text": "Zóster oftálmico",
+        "code": "1E91.1",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/2105678631"
+    },
+    {
+        "id": 2,
+        "created_at": "2025-04-03 12:22:53",
+        "age": "90",
+        "specialty": "Medicina Interna",
+        "text": "Sepsis sin choque séptico",
+        "code": "1G40",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/622600769"
+    },
+    {
+        "id": 103,
+        "created_at": "2025-04-03 09:58:48",
+        "age": "59",
+        "specialty": "Medicina Interna",
+        "text": "Arteriolopatía calcificada",
+        "code": "EB90.42",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/574291789"
+    },
+    {
+        "id": 102,
+        "created_at": "2025-04-03 09:54:32",
+        "age": "33",
+        "specialty": "Psiquiatría Adulto",
+        "text": "Esquizofrenia, primer episodio, en remisión parcial",
+        "code": "6A20.01",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/553710121"
+    },
+    {
+        "id": 101,
+        "created_at": "2025-04-03 09:43:23",
+        "age": "56",
+        "specialty": "Medicina Interna",
+        "text": "Insuficiencia respiratoria",
+        "code": "CB41",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/370028006"
+    },
+    {
+        "id": 206,
+        "created_at": "2025-04-01 12:38:01",
+        "age": "70",
+        "specialty": "Medicina Interna",
+        "text": "Síncope y colapso, sin especificación",
+        "code": "MG45.Z",
+        "url": "//id.who.int/icd/release/11/2024-01/mms/1418136013/unspecified"
+    }
+]
