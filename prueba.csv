@@ -1,0 +1,2 @@
+diagnostico,codigo_principal,post_coordinacion,codigo_uri_completo,explicacion,tiempo_respuesta
+Várices esofágicas secundarias con hemorragia,"{'codigo': 'K42.4', 'nombre': 'Hemorroides'}","[{""codigo"": ""1S0A"", ""nombre"": ""Lateralidad, derecho"", ""tipo"": ""Lateralidad""}]",K42.4&1S0A,"Se ha seleccionado el código principal K42.4 por la presencia de hemorragia relacionada con las varices esofágicas, y se ha aplicado la post-coordinación 1S0A para indicar que la hemorragia afecta al lado derecho.",42.44

@@ -2,14 +2,13 @@ import ollama
 import csv
 import time
 import json
-modeloAProbar = "llama3"
-archivoSalida = "resultados"+modeloAProbar+".csv"
-archivoEntrada = ""
+modeloAProbar = "llama3.1:8b"
+archivoSalida = "resultadosLlama3.1.csv"
+archivoEntrada = "datos_cmd_limpio.json"
 
 print("Cargando variables...")
 try:
     with open(archivoEntrada, "r", encoding="utf-8") as archivo:
-        # campo 
         variables = json.load(archivo)
     print("Variables cargadas exitosamente.")
 except Exception as e:
@@ -50,25 +49,60 @@ Edad del paciente: {edad}
 print("Iniciando pruebas...")
 with open(archivoSalida, "w", newline="", encoding="utf-8") as archivoCSV:
     escritor = csv.writer(archivoCSV)
-    escritor.writerow(["diagnostico", "codigo_principal", "post_coordinacion", "codigo_uri_completo", "explicacion", "tiempo_respuesta"])
+    escritor.writerow(["diagnostico", "codigo_principal", "post_coordinacion", "codigo_ia", "codigo_real", "explicacion", "tiempo_respuesta"])
+    
     for ejemplo in variables:
         diagnostico = ejemplo["text"]
         print(f"Procesando diagnóstico: {diagnostico}")
         promtCompleto = promtBase.replace("{diagnostico}", diagnostico)
-        promtCompleto = promtCompleto.replace("{especialidad}", ejemplo["speciality"])
+        promtCompleto = promtCompleto.replace("{especialidad}", ejemplo["specialty"])
         promtCompleto = promtCompleto.replace("{edad}", str(ejemplo["age"]))
         tiempoInicio = time.time()
         try:
-            respuesta = ollama.chat(modeloAProbar, promtCompleto)
-            textoRespuesta = respuesta["choices"][0]["message"]["content"]
+            respuesta = ollama.chat(
+                model = modeloAProbar, 
+                messages = [{"role": "user", "content": promtCompleto}]
+            )
+            textoRespuesta = respuesta.message.content
             tiempoFin = time.time()
             tiempoTotal = round(tiempoFin - tiempoInicio, 2)
+            
             # Escribimos el resultado en el archivo CSV
+            texto_limpio = textoRespuesta.strip()
+            if texto_limpio.startswith("```json"):
+                texto_limpio = texto_limpio[7:]
+            if texto_limpio.startswith("```"):
+                texto_limpio = texto_limpio[3:]
+            if texto_limpio.endswith("```"):
+                texto_limpio = texto_limpio[:-3]
+            texto_limpio = texto_limpio.strip()
+            datos_json = json.loads(texto_limpio)
+            cod_prin_cod = datos_json.get("codigo_principal", {})
+            post_coord = json.dumps(datos_json.get("post_coordinacion", []), ensure_ascii=False)
+            uri_completo = datos_json.get("codigo_uri_completo", "")
+            explicacion = datos_json.get("explicacion", "")
+            escritor.writerow([
+                diagnostico, 
+                cod_prin_cod, 
+                post_coord, 
+                uri_completo, 
+                ejemplo["code"],
+                explicacion, 
+                tiempoTotal
+            ])
             print("Completado. Respuesta obtenida en", tiempoTotal, "segundos.")
         except Exception as e:
             tiempoFin = time.time()
             tiempoTotal = round(tiempoFin - tiempoInicio, 2)
-            mensajeError = f"ERROR: {e}"
             # Si hay un error, lo guardamos para el registro
+            escritor.writerow([
+                diagnostico, 
+                "Error", 
+                "Error", 
+                "Error", 
+                "Error",
+                f"Error al procesar: {e}", 
+                tiempoTotal
+            ])
             print(f"Error al procesar: {e}")
 print(f"\n--- Pruebas finalizadas. Resultados guardados en '{archivoSalida}' ---")
