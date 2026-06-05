@@ -1,0 +1,199 @@
+diagnostico;codigo_principal;post_coordinacion;codigo_ia;codigo_real;explicacion;tiempo_respuesta
+Várices esofágicas secundarias con hemorragia;{};[];K76.6/R04.0;DA26.00/DB96.0;;157.59
+Neumonía, organismo sin especificación;{};[];1A00;CA40.Z;;70.47
+Pielonefritis aguda;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";1A00&XT8W;GB51;;90.3
+Hemorragia gastrointestinal, sin especificación;{};[];K92.0;ME24.9Z;;66.47
+Neumonía, organismo sin especificación;{};[];1A00;CA40.Z;;59.0
+Trastornos de la regulación inmunitaria con predominio de la linfoproliferación;{};[];D80;4A01.22;;70.53
+Neuromielitis óptica, sin especificación;{};[];1A00;8A43.Z;;66.76
+Neumonía bacteriana, sin especificación;{};[];1A00;CA40.0Z;;59.29
+Insuficiencia respiratoria aguda de tipo I;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";B96&XT8W;CB41.00;;86.72
+Infarto agudo de miocardio sin elevación del segmento ST;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";I21.4&XT8W;BA41.1;;72.55
+Taquicardia ventricular y paro cardíaco por fibrilación;{};[];I47.1/I46.9;MC82.0;;87.8
+Insuficiencia cardíaca, sin especificación;{};[];K90;BD1Z;;61.09
+Infarto agudo de miocardio con elevación del segmento ST;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";I21.0&XT8W;BA41.0;;73.43
+Otra colitis ulcerosa, sin especificación;{};[];K50.Z;DD71.Z;;63.09
+Neumonía, organismo sin especificación;{};[];1A00;CA40.Z;;55.52
+Infección urinaria por Klebsiella pneumoniae, localización no especificada;{};[];1A00/1B40;GC08.1;;72.92
+Hipertensión esencial, sin especificación;{};[];5A00;BA00.Z;;57.68
+Insuficiencia renal crónica de grado 5;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}]";1A60&XT5R;GB61.5;;76.39
+Polineuropatía desmielinizante inflamatoria aguda;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";8A00&XT8W;8C01.0;;76.03
+Insuficiencia cardíaca crónica;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}]";K90Z&XT5R;BD1Z&XT8W;;65.86
+Neumonía, organismo sin especificación;{};[];1A00;CA40.Z;;57.61
+Algunas enfermedades especificadas del hígado;{};[];K70;DB99;;57.2
+Trombosis de la vena cava;{};[];1A00;BD71.1;;64.48
+Pielonefritis bacteriana aguda;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";1A00&XT8W;GB51&XN74M;;82.32
+Tromboembolia pulmonar aguda;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";1A00&XT8W;BB00.0;;64.12
+Neumonía bacteriana, sin especificación;{};[];1A00;CA40.0Z;;52.0
+Demencia debida a una enfermedad cerebrovascular;{};[];6A00/1B20;6D81;;78.34
+Pielonefritis aguda;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";1A00&XT8W;GB51;;82.29
+Cetoacidosis diabética sin coma;{};[];1A00/2B11;5A22.0;;69.13
+Angina de pecho, sin especificación;{};[];K74;BA40.Z;;54.3
+Cardiopatía isquémica aguda, sin especificación;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";5A00&XT8W;BA4Z;;68.24
+Neumonía bacteriana, sin especificación;{};[];1A00;CA40.0Z;;53.65
+Angina inestable;{};[];K74;BA40.0;;51.39
+Neumonía viral, sin especificación;{};[];1A00;CA40.1Z;;52.23
+Insuficiencia respiratoria aguda de tipo I;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";B96&XT8W;CB41.00;;78.74
+Absceso piógeno de la piel;{};[];1A00;1B75.3;;82.09
+Infarto agudo de miocardio sin elevación del segmento ST;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";I21.4&XT8W;BA41.1;;69.69
+Hiperplasia de la próstata;{};[];N40;GA90;;53.37
+Hemorragia gastrointestinal, sin especificación;{};[];K92.0;ME24.9Z;;60.6
+Neumonía, organismo sin especificación;{};[];1A00;CA40.Z;;55.94
+Insuficiencia renal crónica de grado 5;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}]";1A00&XT5R;GB61.5;;67.72
+ￚlcera gastroduodenal hemorrágica aguda;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";K25.1/K26.0&XT8W;DA60.Y&XT5R/ME24.90;;81.8
+Cetoacidosis diabética sin coma;{};[];1A01;5A22.0;;69.54
+Estado hiperglucémico hiperosmolar diabético, sin especificación;{};[];1A00;5A20.Z;;59.11
+Influenza debida a virus de la influenza estacional identificado;{};[];1A00;1E30;;52.28
+Insuficiencia cardíaca congestiva crónica;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}]";K90Z&XT5R;BD10&XT8W;;62.63
+Influenza debida a virus de la influenza estacional identificado;{};[];1A00/1A01;1E30;;81.37
+Insuficiencia respiratoria, sin especificación;{};[];R06.0;CB41.2Z;;56.18
+Patrón nocivo de uso de cocaína, sin especificación;{};[];6B60;6C45.1Z;;58.76
+Taquiarritmia supraventricular, sin especificación;{};[];K90;BC81.Z;;71.79
+Insuficiencia cardíaca crónica;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}]";5A00&XT5R;BD1Z&XT8W;;67.24
+Insuficiencia respiratoria aguda, sin especificación;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";R06.0&XT8W;CB41.0Z;;71.58
+Infarto agudo del miocardio, sin especificación;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";I21&XT8W;BA41.Z;;65.28
+Neumonía bacteriana, sin especificación;{};[];1A00;CA40.0Z;;54.25
+Oclusión arterial retiniana;{};[];1A00;9B74.0;;52.95
+Diabetes mellitus no controlada o inestable;{};"[{""codigo"": ""XS0T"", ""nombre"": ""Moderado"", ""tipo"": ""Gravedad""}, {""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}]";1A00&XS0T&XT5R;5A24;;86.59
+Catatonia, sin especificación;{};[];6A00;6A4Z;;62.39
+Cardiopatía isquémica aguda, sin especificación;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";5A00&XT8W;BA4Z;;68.88
+Insuficiencia respiratoria aguda de tipo I;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";1A00&XT8W;CB41.00;;79.17
+Neumonía, organismo sin especificación;{};[];1A00;CA40.Z;;56.81
+Celulitis orbitaria;{};[];1A00;9A21.0;;66.21
+Insuficiencia renal crónica de grado 5;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}]";1A60&XT5R;GB61.5;;68.95
+Síncope y colapso, sin especificación;{};[];8A00;MG45.Z;;63.16
+Enfermedad pulmonar obstructiva crónica, sin especificación;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}]";B98&XT5R;CA22.Z;;73.56
+Infección urinaria por Klebsiella pneumoniae, localización no especificada;{};[];1A00/1B20;GC08.1;;71.38
+Otra neumonía especificada;{};[];1A00;CA40.Y;;60.2
+Hipoosmolalidad o hiponatremia;{};[];1A00;5C72;;57.26
+Insuficiencia respiratoria aguda, sin especificación;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";1A00&XT8W;CB41.0Z;;62.67
+Tromboembolia pulmonar aguda;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";1A00&XT8W;BB00.0;;64.15
+Trastorno de personalidad, sin especificación;{};[];6A00;6D10.Z;;65.14
+Hipercalcemia;{};[];1A00;5B91.0;;68.78
+Influenza debida a virus de la influenza estacional identificado;{};[];1A00/1A01;1E30;;66.16
+Hemorragia intracerebral, sin especificación;{};[];1A00;8B00.Z;;72.36
+Cardiopatía isquémica aguda, sin especificación;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";5A00&XT8W;BA4Z;;67.84
+Infección urinaria por Klebsiella pneumoniae, localización no especificada;{};[];1A00/1B60;GC08.1;;72.17
+Cistitis, sin especificación;{};[];1A00;GC00.Z;;66.66
+Otro síncope y colapso especificado;{};[];8A00;MG45.Y;;72.68
+Insuficiencia renal crónica de grado 5 en hemodialisis;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}]";1A60&XT5R;GB61.5;;73.03
+Neumonía adquirida en el hospital;{};[];1A00;CA40.Z&XB25;;63.43
+Sepsis con choque séptico;{};[];1A00/2B11;1G41/GB51&XK8G&XN74M;;77.27
+Influenza debida a virus de la influenza estacional identificado;{};[];1A00;1E30;;49.96
+Enfermedad pulmonar obstructiva crónica con neumonía;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}]";J44/J12&XT5R;CA22.1/CA40.Z;;75.25
+Intento de suicidio;{};[];6B00;MB23.R;;51.14
+Lesión autoinfligida intencionalmente por exposición a múltiples fármacos, medicamentos o sustancias biológicas o a sus efectos nocivos;{};[];6A00/Y10;PC99;;78.71
+Otro lupus eritematoso especificado;{};[];LA00;4A40.Y;;53.92
+Otros trastornos especificados de la conciencia;{};[];8A00;8E2Y;;63.1
+Infecciones intestinales por Clostridium difficile;{};[];1A00;1A04;;53.7
+Infección urinaria por Escherichia coli, localización no especificada;{};[];1A00/1B20;GC08.0;;70.32
+Otra osteomielitis aguda;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";1A00&XT8W;FB84.1;;82.72
+Neumonía, organismo sin especificación;{};[];1A00;CA40.Z;;56.26
+Neumonía bacteriana, sin especificación;{};[];1A00;CA40.0Z;;53.03
+Infección urinaria, localización y microbio patógeno no especificados;{};[];1A00;GC08.Z;;60.21
+Insuficiencia respiratoria;{};[];R06.0;CB41;;54.18
+Síncope y colapso, sin especificación;{};[];1A00;MG45.Z;;68.17
+Miocardiopatía por estrés;{};[];5A00;BC43.5;;54.53
+Síndrome diarreico;{};[];1A00;DA90.0;;62.17
+Síndrome de muerte súbita arrítmica;{};[];K90Z;BC64;;59.3
+Infarto agudo de miocardio sin elevación del segmento ST;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";I21.4&XT8W;BA41.1;;69.96
+Trastorno de personalidad, sin especificación;{};[];6A00.2;6D10.Z;;69.66
+Infarto agudo de miocardio sin elevación de ST, pared anterior;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";I21.4/C8Y00&XT8W;BA41.1&XA7RE3;;81.2
+Sepsis con choque séptico;{};[];1A00/2B11;1G41;;76.61
+Infarto agudo de miocardio sin elevación del segmento ST;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";I21.4&XT8W;BA41.1;;69.7
+Delirium, de causa no especificada o desconocida;{};[];6A00;6D70.Z;;59.02
+Mielopatía;{};[];1A00;8B42;;68.87
+Hiperplasia de la próstata;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}]";N40.0&XT5R;GA90;;72.67
+Insuficiencia renal crónica de grado 5;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}]";1A00&XT5R;GB61.5;;67.91
+Insuficiencia respiratoria, sin especificación;{};[];K90;CB41.2Z;;59.23
+Púrpura trombocitopénica inmunitaria;{};[];D69.0;3B64.10;;58.7
+Anafilaxia provocada por medicamentos;{};[];T78.2/Y40-Y59;4A84.1&XS2Y;;73.99
+Enteritis eosinofílica;{};[];K90.0;DA94.21;;60.42
+Enteritis eosinofílica;{};[];K90.0;DA94.21;;57.64
+Insuficiencia renal aguda de grado 1;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}, {""codigo"": ""XS5W"", ""nombre"": ""Leve"", ""tipo"": ""Gravedad""}]";1A00&XT8W&XS5W;GB60.0;;90.09
+Hipertensión esencial, sin especificación;{};[];5A00;BA00.Z;;60.56
+Diabetes mellitus tipo 2;{};[];1A00;5A11;;51.97
+Síndrome diarreico;{};[];1A00;DA90.0;;61.22
+Enfermedades de la arteria coronaria, sin especificación [Arteria nodal sinoauricular];{};[];I25;BA8Z&XA7TB5;;68.23
+Infarto subsecuente del miocardio, sin elevación del segmento ST;{};"[{""codigo"": ""XT4Z"", ""nombre"": ""Recurrente"", ""tipo"": ""Curso temporal""}]";I21/I25.2&XT4Z;BA42.1;;86.57
+ￚlcera duodenal aguda;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";K25&XT8W;DA63.Y&XT5R;;73.6
+Trombosis venosa profunda de la extremidad inferior;{};[];1A00;BD71.4;;67.82
+Cirrosis hepática;{};[];K70.11;DB93.1;;51.45
+Fibrosis pulmonar idiopática;{};[];E84.0;CB03.4;;56.91
+Otros dispositivos cardiovasculares especificados asociados con lesión o daño: dispositivos terapéuticos, no quirúrgicos o de rehabilitación;{};[];5A60;PK91.1Y;;72.85
+Infarto agudo del miocardio, sin especificación;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";I21&XT8W;BA41.Z;;60.9
+Neumonía bacteriana, sin especificación;{};[];1A00;CA40.0Z;;52.22
+Angina de pecho, sin especificación;{};[];K74;BA40.Z;;54.41
+Absceso pulmonar con neumonía;{};[];1A00/2B11;CA43.1;;66.45
+Cetoacidosis diabética sin coma;{};[];1A01;5A22.0;;62.8
+Neumonía, organismo sin especificación;{};[];1A00;CA40.Z;;60.34
+Hipertensión esencial, sin especificación;{};[];1A00;BA00.Z;;57.87
+Hemorragia gastrointestinal, sin especificación;{};[];K92.0;ME24.9Z;;60.13
+Enfermedad pulmonar obstructiva crónica con exacerbación aguda, no especificada;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}, {""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";B20/R96&XT5R&XT8W;CA22.0;;95.68
+Enfermedad renal crónica, sin especificación de grado;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}]";1A00&XT5R;GB61.Z;;61.0
+Infarto agudo del miocardio, sin especificación;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";I21&XT8W;BA41.Z;;65.44
+Cirrosis hepática;{};[];K70.11;DB93.1;;51.88
+Insuficiencia respiratoria, sin especificación;{};[];R06.0;CB41.2Z;;56.66
+Trastorno depresivo recurrente, episodio actual moderado sin síntomas psicóticos;{};"[{""codigo"": ""XS0T"", ""nombre"": ""Moderado"", ""tipo"": ""Gravedad""}]";6A00&XS0T;6A71.1;;80.8
+Insuficiencia respiratoria de tipo II, no especificada como aguda o crónica;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}]";2B11&XT5R;CB41.21;;89.48
+Taquiarritmia supraventricular, sin especificación;{};[];K90;BC81.Z;;73.01
+Otras condropatías especificadas;{};[];M13.8;FB82.Y;;72.03
+Accidente cerebrovascular isquémico, sin especificación;{};[];1A00;8B11.5Z;;59.66
+Infarto agudo del miocardio, sin especificación;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";I21&XT8W;BA41.Z;;61.08
+Erupción cutánea maculopapulosa aguda;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";L50&XT8W;ME62.3;;74.72
+Enfermedad pulmonar obstructiva crónica con exacerbación aguda, no especificada;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}, {""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";J44/XT44.1&XT5R&XT8W;CA22.0;;101.23
+Pancreatitis aguda, sin especificación;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";K87.0&XT8W;DC31.Z;;60.96
+Trastorno de adaptación;{};[];6A00;6B43;;61.79
+Insuficiencia cardíaca crónica;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}]";K90Z&XT5R;BD1Z&XT8W;;64.51
+Arritmia cardíaca, sin especificación;{};[];K90;BC9Z;;61.95
+Hipertensión esencial, sin especificación con mal control;{};"[{""codigo"": ""XS25"", ""nombre"": ""Grave/Severo"", ""tipo"": ""Gravedad""}]";5A00&XS25;BA00.Z;;71.06
+Hipertensión esencial, sin especificación;{};[];5A00;BA00.Z;;56.81
+Hemorragia gastrointestinal, sin especificación;{};[];K92.0;ME24.9Z;;60.81
+Angina inestable;{};[];K74;BA40.0;;56.76
+Anemia ferropénica adquirida hemorrágica, sin especificación;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}]";1A00/2B11&XT5R;3A00.0Z;;83.34
+Várices esofágicas sangrantes;{};[];K22.0/R04.0;DA26.00;;64.85
+Taquicardia auriculoventricular recíproca, sin especificación;{};[];K90Y;BC81.7Z;;63.07
+Insuficiencia respiratoria aguda de tipo I;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";1A00&XT8W;CB41.00;;78.95
+Carcinoma de células renales del riñón, excepto de la pelvis renal;{};[];C22.9;2C90.0;;56.4
+Ajuste o manejo de un marcapasos cardíaco;{};[];1A00;QB30.20;;53.95
+Enfermedad pulmonar obstructiva crónica con exacerbación aguda, no especificada;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}, {""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";B20/R96&XT5R&XT8W;CA22.0;;121.35
+Pielonefritis bacteriana aguda;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";1A00&XT8W;GB51&XN74M;;81.85
+Pielonefritis aguda;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";1A00&XT8W;GB51;;75.24
+Anemia ferropénica adquirida hemorrágica, sin especificación;{};[];1A00/3B60;3A00.0Z;;67.69
+Anemia debida a una enfermedad crónica, sin especificación;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}]";D50&XT5R;3A71.Z;;68.66
+Infección urinaria, localización y microbio patógeno no especificados;{};[];1A00;GC08.Z;;63.64
+Acidosis, sin especificación resuelta;{};[];1A00;5C73.Z;;57.57
+Inflamación del colon;{};[];1A00;1A40.0&XA03U9;;53.93
+Sepsis con choque séptico;{};[];1A00/2B11;1G41;;79.43
+Neumonía bacteriana, sin especificación;{};[];1A00;CA40.0Z;;54.25
+Infarto agudo de miocardio con elevación del segmento ST;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";I21.0&XT8W;BA41.0;;72.33
+Bloqueo auriculoventricular completo, sin especificación;{};[];K90Z;BC63.2Z;;58.87
+Dispositivos cardiovasculares asociados con lesión o daño: catéter venoso central;{};[];1A00/2B11;PK91.15;;71.07
+Otra hipertensión esencial especificada;{};[];1A00;BA00.Y;;53.99
+Neumonía, organismo sin especificación;{};[];1A00;CA40.Z;;57.0
+Insuficiencia respiratoria crónica de tipo I;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}]";B97&XT5R;CB41.10;;78.85
+Sepsis sin choque séptico;{};[];1A00;1G40;;73.42
+Trastorno esquizoafectivo, episodios múltiples, en remisión parcial;{};"[{""codigo"": ""XT4Z"", ""nombre"": ""Recurrente"", ""tipo"": ""Curso temporal""}, {""codigo"": ""XS0T"", ""nombre"": ""Moderado"", ""tipo"": ""Gravedad""}]";6A00&XT4Z&XS0T;6A21.11;;92.34
+Enfermedad renal crónica, sin especificación de grado;{};"[{""codigo"": ""XT5R"", ""nombre"": ""Crónico"", ""tipo"": ""Curso temporal""}]";1A00&XT5R;GB61.Z;;65.17
+Choque cardiogénico;{};[];1A00;MG40.0;;67.67
+Trombosis venosa profunda de la extremidad inferior;{};[];1A00;BD71.4&XK8G;;77.05
+Hipertensión esencial, sin especificación;{};[];5A00;BA00.Z;;57.42
+Pancreatitis aguda, sin especificación;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";K87.0&XT8W;DC31.Z;;60.68
+Cardiomiopatía isquémica, sin especificación;{};[];K90;BA51.Z;;54.89
+Hipoglucemia sin diabetes asociada POR gLIBENCLAMIDA;{};[];1A00/Y40.0;5A41;;70.98
+Anemia ferropénica, sin especificación;{};[];1A00;3A00.Z;;58.87
+Hemorragia gastrointestinal, sin especificación;{};[];K92.0;ME24.9Z/DA7Z;;63.21
+Angina estable;{};[];1A00;BA40.1;;69.82
+Infarto agudo del miocardio, sin especificación;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}]";I21&XT8W;BA41.Z;;65.46
+Reacciones cutáneas adversas a la medicación, sin especificación;{};[];D73;EH7Z;;62.43
+Hipertensión esencial, sin especificación;{};[];5A00;BA00.Z;;56.82
+Metástasis de neoplasia maligna a la pleura;{};[];2B11;2D72;;60.95
+Dependencia de cocaína, sin especificación;{};[];6A00;6C45.2Z;;60.59
+Trastorno de personalidad, sin especificación;{};[];6A00.2;6D10.Z;;69.3
+Accidente cerebrovascular isquémico, sin especificación;{};[];1A00;8B11.5Z;;61.57
+Zóster oftálmico;{};[];1A00/2B11;1E91.1;;78.66
+Sepsis sin choque séptico;{};[];1A00;1G40;;69.01
+Arteriolopatía calcificada;{};[];1A00;EB90.42;;59.04
+Esquizofrenia, primer episodio, en remisión parcial;{};"[{""codigo"": ""XT8W"", ""nombre"": ""Agudo"", ""tipo"": ""Curso temporal""}, {""codigo"": ""XS0T"", ""nombre"": ""Moderado"", ""tipo"": ""Gravedad""}]";6A00&XT8W&XS0T;6A20.01;;92.64
+Insuficiencia respiratoria;{};[];R06.0;CB41;;54.21
+Síncope y colapso, sin especificación;{};[];1A00;MG45.Z;;68.03

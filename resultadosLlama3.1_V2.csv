@@ -1,199 +1,199 @@
-diagnostico;contexto;elementos_poscoordinacion;ruido_clinico;tiempo_respuesta;;;;
-Várices esofágicas secundarias con hemorragia;{'edad': '51 años', 'especialidad': 'Medicina Interna'};"{""etiológica"": ""secundarias""}";[];34.73;;;;
-Neumonía;{'edad': '75 años', 'especialidad': None};"{""lateralidad"": null, ""sintomas_asociados"": [], ""temporalidad"": null, ""causalidad"": ""organismo sin especificación""}";['sin definir especialidad médica'];16.62;;;;
-Pielonefritis aguda;{'edad': '27', 'especialidad': 'Medicina Interna'};{};[];9.76;;;;
-Hemorragia gastrointestinal;{'edad': '62 años', 'especialidad': 'Medicina Interna'};{};['sin especificación'];11.62;;;;
-Neumonía;{'edad': '91', 'especialidad': 'Medicina Interna'};"{""organo_involucrado"": ""no especificado""}";['organismo sin especificación'];12.83;;;;
-Trastornos de la regulación inmunitaria con predominio de la linfoproliferación;{'edad': '57', 'especialidad': 'Medicina Interna'};{};[];12.25;;;;
-Neuromielitis óptica;{'edad': '57 años', 'especialidad': 'Medicina Interna'};{};[];9.67;;;;
-Neumonía bacteriana;{'edad': '79', 'especialidad': 'Medicina Interna'};{};[];11.25;;;;
-Insuficiencia respiratoria aguda de tipo I;{'edad': '69 años', 'especialidad': 'Medicina Interna'};{};[];10.63;;;;
-Infarto agudo de miocardio sin elevación del segmento ST;{'edad': '73 años', 'especialidad': 'Medicina Interna'};{};[];11.94;;;;
-Fibrilación ventricular con paro cardíaco;{'edad': '49 años', 'especialidad': 'Medicina Interna'};"{""gravedad"": ""grave (paro cardíaco)"", ""cronicidad"": null}";[];14.86;;;;
-Insuficiencia cardíaca;{'edad': '73 años', 'especialidad': 'Medicina Interna'};{};[];9.69;;;;
-Infarto agudo de miocardio con elevación del segmento ST;{'edad': '68', 'especialidad': 'Medicina Interna'};{};[];11.17;;;;
-Otra colitis ulcerosa;{'edad': '45', 'especialidad': 'Medicina Interna'};{};[];9.66;;;;
-Neumonía;{'edad': '75 años', 'especialidad': 'Medicina Interna'};"{""agente_causal"": ""organismo sin especificación""}";['paciente traído por'];14.16;;;;
-Infección urinaria;{'edad': '64 años', 'especialidad': 'Medicina Interna'};"{""agente_causal"": ""Klebsiella pneumoniae""}";[];12.42;;;;
-Hipertensión esencial;{'edad': '72 años', 'especialidad': 'Medicina Interna'};{};['sin especificación'];11.11;;;;
-Insuficiencia renal crónica de grado 5;{'edad': '45', 'especialidad': 'Medicina Interna'};null;[];10.5;;;;
-Polineuropatía desmielinizante inflamatoria aguda;{'edad': '77 años', 'especialidad': None};{};[];10.74;;;;
-Insuficiencia cardíaca crónica;{'edad': '87 años', 'especialidad': 'Medicina Interna'};{};[];11.27;;;;
-Neumonía; organismo sin especificación;Error;Error;Error;Error;Error al procesar: Expecting value: line 11 column 18 (char 237);14.23;
-Algunas enfermedades especificadas del hígado;{'edad': '56 años', 'especialidad': 'Medicina Interna'};{};[];11.86;;;;
-Trombosis de la vena cava;{'edad': '56 años', 'especialidad': 'Medicina Interna'};{};[];10.65;;;;
-Pielonefritis bacteriana aguda;{'edad': '67 años', 'especialidad': 'Medicina Interna'};"{""agente_causales"": [""bacteriana""]}";['se trata del diagnóstico clínico'];14.31;;;;
-Tromboembolia pulmonar aguda;{'edad': '83 años', 'especialidad': 'Medicina Interna'};{};[];10.73;;;;
-Neumonía bacteriana;{'edad': '62', 'especialidad': 'Medicina Interna'};{};[];10.91;;;;
-Demencia debida a una enfermedad cerebrovascular;{'edad': '76 años', 'especialidad': 'Medicina Interna'};{};[];10.45;;;;
-Pielonefritis aguda;{'edad': '38', 'especialidad': 'Medicina Interna'};null;;10.39;;;;
-Cetoacidosis diabética sin coma;{'edad': '25 años', 'especialidad': 'Medicina Interna'};{};[];10.21;;;;
-Angina de pecho;{'edad': '53 años', 'especialidad': 'Medicina Interna'};{};['sin especificación'];10.89;;;;
-Cardiopatía isquémica aguda;{'edad': '74 años', 'especialidad': 'Medicina Interna'};{};[];10.64;;;;
-Neumonía bacteriana;{'edad': '82 años', 'especialidad': 'Medicina Interna'};{};[];10.14;;;;
-Angina inestable;{'edad': '77 años', 'especialidad': 'Medicina Interna'};{};[];10.26;;;;
-Neumonía viral;{'edad': '57 años', 'especialidad': 'Medicina Interna'};{};[];11.45;;;;
-Insuficiencia respiratoria aguda de tipo I;{'edad': '72', 'especialidad': 'Medicina Interna'};{};[];10.18;;;;
-Absceso piógeno de la piel;{'edad': '56 años', 'especialidad': 'Medicina Interna'};{};[];10.11;;;;
-Infarto agudo de miocardio sin elevación del segmento ST;{'edad': '62', 'especialidad': 'Medicina Interna'};{};[];11.09;;;;
-Hiperplasia de la próstata;{'edad': '56 años', 'especialidad': 'Medicina Interna'};{};[];10.47;;;;
-Hemorragia gastrointestinal;{'edad': '39 años', 'especialidad': 'Medicina Interna'};{};[];10.08;;;;
-Neumonía;{'edad': '58 años', 'especialidad': 'Medicina Interna'};"{""tipologia"": ""con infección"", ""agente_causas"": null, ""gravedad"": null}";[];14.09;;;;
-Insuficiencia renal crónica de grado 5;{'edad': '73 años', 'especialidad': 'Medicina Interna'};{};[];10.7;;;;
-Cirrosis gastroduodenal hemorrágica aguda;{'edad': '56 años', 'especialidad': 'Medicina Interna'};{};[];10.67;;;;
-Cetoacidosis diabética sin coma;{'edad': '61 años', 'especialidad': 'Medicina Interna'};"{""temporalidad"": null, ""sintomas_asociados"": [], ""gravedad"": ""sin coma""}";[];14.32;;;;
-Estado hiperglucémico hiperosmolar diabético;{'edad': '82', 'especialidad': 'Medicina Interna'};{};[];11.02;;;;
-Influenza debida a virus de la influenza estacional identificado;{'edad': '79 años', 'especialidad': 'Medicina Interna'};{};[];10.91;;;;
-Insuficiencia cardíaca congestiva crónica;{'edad': '70 años', 'especialidad': 'Medicina Interna'};{};[];10.78;;;;
-Influenza debida a virus de la influenza estacional identificado;{'edad': '53 años', 'especialidad': 'Medicina Interna'};{};[];10.86;;;;
-Insuficiencia respiratoria; sin especificación;Error;Error;Error;Error;Error al procesar: Expecting value: line 11 column 18 (char 284);17.61;
-Patrón nocivo de uso de cocaína;{'edad': '36 años', 'especialidad': 'Medicina Interna'};{};['sin especificación'];12.83;;;;
-Taquiarritmia supraventricular; sin especificación;Error;Error;Error;Error;Error al procesar: Expecting value: line 14 column 18 (char 299);19.83;
-Insuficiencia cardíaca crónica;{'edad': '27 años', 'especialidad': 'Medicina Interna'};{};[];9.9;;;;
-Insuficiencia respiratoria aguda;{'edad': '73 años', 'especialidad': 'Medicina Interna'};{};[];10.88;;;;
-Infarto agudo del miocardio;{'edad': '71 años', 'especialidad': 'Medicina Interna'};{};[];10.15;;;;
-Neumonía bacteriana;{'edad': '86 años', 'especialidad': 'Medicina Interna'};{};[];10.01;;;;
-Oclusión arterial retiniana;{'edad': '39 años', 'especialidad': 'Medicina Interna'};{};[];9.94;;;;
-Diabetes mellitus no controlada o inestable;{'edad': '61 años', 'especialidad': 'Medicina Interna'};{};[];10.66;;;;
-Catatonia;{'edad': '63 años', 'especialidad': 'Medicina Interna'};{};[];9.68;;;;
-Cardiopatía isquémica aguda;{'edad': '63 años', 'especialidad': 'Medicina Interna'};{};['sin especificación'];11.7;;;;
-Insuficiencia respiratoria aguda de tipo I;{'edad': '86 años', 'especialidad': 'Medicina Interna'};{};[];10.86;;;;
-Neumonía;{'edad': '78 años', 'especialidad': 'Medicina Interna'};"{""organismo_causal"": ""sin especificación""}";[];11.99;;;;
-Celulitis orbitaria;{'edad': '92 años', 'especialidad': 'Medicina Interna'};{};[];10.64;;;;
-Insuficiencia renal crónica de grado 5;{'edad': '76 años', 'especialidad': 'Medicina Interna'};{};[];10.46;;;;
-Síncope;{'edad': '25 años', 'especialidad': 'Medicina Interna'};{};['sin especificación'];11.04;;;;
-Enfermedad pulmonar obstructiva crónica;{'edad': '50 años', 'especialidad': 'Medicina Interna'};{};[];10.54;;;;
-Infección urinaria por Klebsiella pneumoniae;{'edad': '75 años', 'especialidad': 'Medicina Interna'};{};[];11.21;;;;
-Otra neumonía especificada;{'edad': '38 años', 'especialidad': 'Medicina Interna'};{};[];10.13;;;;
-Hiponatremia;{'edad': '79 años', 'especialidad': 'Medicina Interna'};{};[];9.78;;;;
-Insuficiencia respiratoria aguda;{'edad': '70 años', 'especialidad': 'Medicina Interna'};null;['sin especificación'];11.46;;;;
-Tromboembolia pulmonar aguda;{'edad': '80 años', 'especialidad': 'Medicina Interna'};{};[];10.44;;;;
-Trastorno de personalidad; sin especificación;{'edad': '25 años', 'especialidad': 'Psiquiatría Adulto'};{};[];10.81;;;
-Hipercalcemia;{'edad': '70', 'especialidad': 'Medicina Interna'};{};[];9.97;;;;
-Influenza debida a virus de la influenza estacional;{'edad': '34 años', 'especialidad': 'Medicina Interna'};{};[];10.92;;;;
-Hemorragia intracerebral; sin especificación;Error;Error;Error;Error;Error al procesar: Expecting value: line 11 column 18 (char 243);15.06;
-Cardiopatía isquémica aguda;{'edad': '55 años', 'especialidad': 'Medicina Interna'};{};[];10.76;;;;
-Infección urinaria por Klebsiella pneumoniae;{'edad': '67 años', 'especialidad': 'Medicina Interna'};"{""agente_causa"": ""Klebsiella pneumoniae""}";[];13.37;;;;
-Cistitis;{'edad': '42 años', 'especialidad': 'Medicina Interna'};{};[];9.7;;;;
-Otro síncope y colapso especificado;{'edad': '73 años', 'especialidad': 'Medicina Interna'};{};[];10.42;;;;
-Insuficiencia renal crónica de grado 5;{'edad': '70', 'especialidad': 'Medicina Interna'};"{""temporalidad"": ""crónica"", ""gravedad"": ""grado 5"", ""tratamiento"": ""hemodialisis""}";['en hemodialisis'];16.53;;;;
-Neumonía adquirida en el hospital;{'edad': '61 años', 'especialidad': 'Medicina Interna'};{};[];10.44;;;;
-Sepsis con choque séptico;{'edad': '68 años', 'especialidad': 'Medicina Interna'};{};[];10.46;;;;
-Influenza debida a virus de la influenza estacional;{'edad': '77 años', 'especialidad': 'Medicina Interna'};{};[];11.52;;;;
-Enfermedad pulmonar obstructiva crónica con neumonía;{'edad': '81', 'especialidad': 'Medicina Interna'};{};[];11.18;;;;
-Intento de suicidio;{'edad': '40 años', 'especialidad': 'Medicina Interna'};{};[];10.12;;;;
-Lesión autoinfligida intencionalmente por exposición a múltiples fármacos; medicamentos o sustancias biológicas o a sus efectos nocivos;{'edad': '23', 'especialidad': 'Psiquiatría Adulto'};"{""agentes_causales"": [""múltiples fármacos"", ""medicamentos o sustancias biológicas""]}";[];19.58;;;
-Otro lupus eritematoso especificado;{'edad': '60 años', 'especialidad': 'Medicina Interna'};{};[];10.56;;;;
-Otros trastornos especificados de la conciencia;{'edad': '71 años', 'especialidad': 'Medicina Interna'};null;[];11.34;;;;
-Infecciones intestinales por Clostridium difficile;{'edad': '63 años', 'especialidad': 'Medicina Interna'};{};[];10.7;;;;
-Infección urinaria por Escherichia coli;{'edad': '69', 'especialidad': 'Medicina Interna'};"{""microorganismo_causante"": ""Escherichia coli""}";[];12.92;;;;
-Otra osteomielitis aguda;{'edad': '29 años', 'especialidad': 'Medicina Interna'};{};[];10.6;;;;
-Neumonía;{'edad': '85 años', 'especialidad': 'Medicina Interna'};"{""organismo_causante"": ""no especificado""}";['paciente es atendido en Medicina Interna'];14.08;;;;
-Neumonía bacteriana;{'edad': '82 años', 'especialidad': 'Medicina Interna'};{};[];10.19;;;;
-Infección urinaria;{'edad': '63 años', 'especialidad': 'Medicina Interna'};null;['localización y microbio patógeno no especificados'];12.37;;;;
-Insuficiencia respiratoria;{'edad': '66 años', 'especialidad': 'Medicina Interna'};{};[];10.06;;;;
-Síncope y colapso;{'edad': '67 años', 'especialidad': 'Medicina Interna'};null;['sin especificación'];10.84;;;;
-Miocardiopatía por estrés;{'edad': '80 años', 'especialidad': 'Medicina Interna'};{};[];10.17;;;;
-Síndrome diarreico;{'edad': '81 años', 'especialidad': 'Medicina Interna'};{};[];10.34;;;;
-Síndrome de muerte súbita arrítmica;{'edad': '62 años', 'especialidad': 'Medicina Interna'};{};[];11.33;;;;
-Infarto agudo de miocardio sin elevación del segmento ST;{'edad': '61 años', 'especialidad': 'Medicina Interna'};{};[];11.15;;;;
-Trastorno de personalidad;{'edad': '26 años', 'especialidad': 'Psiquiatría Adulto'};"{""sintomas_asociados"": [], ""temporalidad"": null}";[];13.16;;;;
-Infarto agudo de miocardio sin elevación de ST;{'edad': '76 años', 'especialidad': 'Medicina Interna'};"{""lateralidad"": null, ""anatomia_specifica"": ""pared anterior"", ""temporalidad"": null}";[];15.46;;;;
-Sepsis con choque séptico;{'edad': '76 años', 'especialidad': 'Medicina Interna'};{};[];10.51;;;;
-Infarto agudo de miocardio sin elevación del segmento ST;{'edad': '59 años', 'especialidad': 'Medicina Interna'};{};[];10.78;;;;
-Delirium;{'edad': '81 años', 'especialidad': 'Medicina Interna'};"{""causa_desconocida"": true}";[];10.79;;;;
-Mielopatía;{'edad': '37', 'especialidad': 'Medicina Interna'};null;['edad del paciente: 37', 'especialidad médica: Medicina Interna', 'diagnóstico clínico: Mielopatía'];14.55;;;;
-Hiperplasia de la próstata;{'edad': '86', 'especialidad': 'Medicina Interna'};{};[];9.85;;;;
-Insuficiencia renal crónica de grado 5;{'edad': '68', 'especialidad': 'Medicina Interna'};{};[];10.16;;;;
-Insuficiencia respiratoria;{'edad': '73 años', 'especialidad': 'Medicina Interna'};{};[];9.65;;;;
-Púrpura trombocitopénica inmunitaria;{'edad': '56 años', 'especialidad': 'Medicina Interna'};"{""sintomas_asociados"": []}";[];12.53;;;;
-Anafilaxia provocada por medicamentos;{'edad': '78 años', 'especialidad': 'Medicina Interna'};{};[];9.93;;;;
-Enteritis eosinofílica;{'edad': '22 años', 'especialidad': 'Medicina Interna'};{};[];10.57;;;;
-Enteritis eosinofílica;Error;Error;Error;Error;Error al procesar: Expecting value: line 12 column 18 (char 274);19.99;;
-Insuficiencia renal aguda de grado 1;{'edad': '59 años', 'especialidad': 'Medicina Interna'};"{""gravedad"": ""de grado 1""}";[];12.05;;;;
-Hipertensión esencial;{'edad': '47 años', 'especialidad': 'Medicina Interna'};{};[];10.53;;;;
-Diabetes mellitus tipo 2;{'edad': '64', 'especialidad': 'Medicina Interna'};"{""sintomas_asociados"": [], ""temporalidad"": null}";[];12.14;;;;
-Síndrome diarreico;{'edad': '67 años', 'especialidad': 'Medicina Interna'};{};[];9.83;;;;
-Enfermedades de la arteria coronaria; sin especificación;{'edad': '69', 'especialidad': 'Medicina Interna'};"{""anatomía específica"": ""arteria nodal sinoauricular""}";[];13.28;;;
-Infarto subsecuente del miocardio;{'edad': '37 años', 'especialidad': 'Medicina Interna'};"{""temporalidad"": ""subsecuente""}";['sin elevación del segmento ST'];14.45;;;;
-Úlcera duodenal aguda;{'edad': '98 años', 'especialidad': 'Medicina Interna'};{};[];9.79;;;;
-Trombosis venosa profunda de la extremidad inferior;{'edad': '55', 'especialidad': 'Medicina Interna'};{};[];10.28;;;;
-Cirrosis hepática;{'edad': '56', 'especialidad': 'Medicina Interna'};{};[];9.46;;;;
-Fibrosis pulmonar idiopática;{'edad': '65 años', 'especialidad': 'Medicina Interna'};{};[];10.05;;;;
-Otros dispositivos cardiovasculares especificados asociados con lesión o daño: dispositivos terapéuticos; no quirúrgicos o de rehabilitación;{'edad': '57 años', 'especialidad': 'Medicina Interna'};{};[];14.11;;;
-Infarto agudo del miocardio;{'edad': '74 años', 'especialidad': 'Medicina Interna'};{};[];9.8;;;;
-Neumonía bacteriana;{'edad': '72 años', 'especialidad': 'Medicina Interna'};{};['sin especificación'];12.18;;;;
-Angina de pecho;{'edad': '52 años', 'especialidad': 'Medicina Interna'};{};[];9.85;;;;
-Absceso pulmonar con neumonía;{'edad': '50 años', 'especialidad': 'Medicina Interna'};{};[];10.42;;;;
-Cetoacidosis diabética sin coma;{'edad': '50', 'especialidad': 'Medicina Interna'};null;;9.55;;;;
-Neumonía;{'edad': '55 años', 'especialidad': 'Medicina Interna'};{};['organismo sin especificación'];10.95;;;;
-Hipertensión esencial;{'edad': '83 años', 'especialidad': 'Medicina Interna'};{};[];11.0;;;;
-Hemorragia gastrointestinal;{'edad': '71 años', 'especialidad': 'Medicina Interna'};{};['sin especificación'];10.3;;;;
-Enfermedad pulmonar obstructiva crónica con exacerbación aguda;{'edad': '82 años', 'especialidad': 'Medicina Interna'};{};[];11.25;;;;
-Enfermedad renal crónica; sin especificación de grado;Error;Error;Error;Error;Error al procesar: Expecting value: line 9 column 18 (char 215);15.75;
-Infarto agudo del miocardio;{'edad': '83 años', 'especialidad': 'Medicina Interna'};null;;10.54;;;;
-Cirrosis hepática;{'edad': '53', 'especialidad': 'Medicina Interna'};{};[];10.01;;;;
-Insuficiencia respiratoria;{'edad': '45 años', 'especialidad': 'Medicina Interna'};{};[];9.93;;;;
-Trastorno depresivo recurrente;{'edad': '56 años', 'especialidad': 'Psiquiatría Adulto'};{};['episodio actual moderado sin síntomas psicóticos'];13.69;;;;
-Insuficiencia respiratoria de tipo II;{'edad': '80 años', 'especialidad': 'Medicina Interna'};{};[];10.42;;;;
-Taquiarritmia supraventricular;{'edad': '37 años', 'especialidad': 'Medicina Interna'};{};[];10.68;;;;
-Otras condropatías especificadas;{'edad': '72 años', 'especialidad': 'Medicina Interna'};{};[];10.33;;;;
-Accidente cerebrovascular isquémico;{'edad': '75 años', 'especialidad': 'Medicina Interna'};{};[];11.42;;;;
-Infarto agudo del miocardio;{'edad': '61 años', 'especialidad': 'Medicina Interna'};{};[];10.16;;;;
-Erupción cutánea maculopapulosa aguda;{'edad': '28 años', 'especialidad': 'Medicina Interna'};{};[];10.99;;;;
-Enfermedad pulmonar obstructiva crónica con exacerbación aguda; no especificada;Error;Error;Error;Error;Error al procesar: Expecting value: line 14 column 18 (char 333);22.92;
-Pancreatitis aguda;{'edad': '45 años', 'especialidad': 'Medicina Interna'};{};['sin especificación'];11.28;;;;
-Trastorno de adaptación;Error;Error;Error;Error;Error al procesar: Expecting value: line 13 column 18 (char 309);18.11;;
-Insuficiencia cardíaca crónica;{'edad': '91', 'especialidad': 'Medicina Interna'};{};[];11.0;;;;
-Arritmia cardíaca;{'edad': '76 años', 'especialidad': 'Medicina Interna'};{};['sin especificación'];12.09;;;;
-Hipertensión esencial;{'edad': '53 años', 'especialidad': 'Medicina Interna'};"{""gravedad"": ""mal control""}";[];11.54;;;;
-Hipertensión esencial;{'edad': '74 años', 'especialidad': 'Medicina Interna'};{};[];9.95;;;;
-Hemorragia gastrointestinal; sin especificación;Error;Error;Error;Error;Error al procesar: Expecting value: line 11 column 18 (char 246);16.52;
-Angina inestable;{'edad': '64 años', 'especialidad': 'Medicina Interna'};{};[];9.72;;;;
-Anemia ferropénica adquirida hemorrágica;{'edad': '91 años', 'especialidad': 'Medicina Interna'};{};[];11.35;;;;
-Várices esofágicas sangrantes;{'edad': '66', 'especialidad': 'Medicina Interna'};{};[];10.0;;;;
-Taquicardia auriculoventricular recíproca;{'edad': '53', 'especialidad': 'Medicina Interna'};{};[];10.65;;;;
-Insuficiencia respiratoria aguda de tipo I;{'edad': '73 años', 'especialidad': 'Medicina Interna'};{};[];11.58;;;;
-Carcinoma de células renales del riñón;{'edad': '68', 'especialidad': 'Medicina Interna'};"{""lateralidad"": null, ""sintomas_asociados"": [], ""temporalidad"": null}";[];14.83;;;;
-Ajuste o manejo de un marcapasos cardíaco;{'edad': '71 años', 'especialidad': 'Medicina Interna'};{};[];11.09;;;;
-Enfermedad pulmonar obstructiva crónica con exacerbación aguda;{'edad': '69', 'especialidad': 'Medicina Interna'};"{""temporalidad"": ""aguda"", ""cronicidad"": ""crónica""}";['no especificada'];14.83;;;;
-Pielonefritis bacteriana aguda;{'edad': '69 años', 'especialidad': 'Medicina Interna'};{};[];10.04;;;;
-Pielonefritis aguda;{'edad': '92 años', 'especialidad': 'Medicina Interna'};{};[];9.96;;;;
-Anemia ferropénica adquirida hemorrágica;{'edad': '18 años', 'especialidad': 'Medicina Interna'};"{""temporalidad"": null, ""sintomas_asociados"": [], ""lateralidad"": null}";[];14.65;;;;
-Anemia debida a una enfermedad crónica;{'edad': '74 años', 'especialidad': 'Medicina Interna'};"{""temporalidad"": ""crónica"", ""sintomas_asociados"": []}";['sin especificación'];14.58;;;;
-Infección urinaria;{'edad': '93 años', 'especialidad': 'Medicina Interna'};"{""lateralidad"": null, ""sintomas_asociados"": [], ""temporalidad"": null}";[];13.65;;;;
-Acidosis;{'edad': '73 años', 'especialidad': 'Medicina Interna'};{};['sin especificación resuelta'];10.97;;;;
-Inflamación del colon;{'edad': '86 años', 'especialidad': 'Medicina Interna'};{};[];9.89;;;;
-Sepsis con choque séptico;{'edad': '81 años', 'especialidad': 'Medicina Interna'};{};[];10.29;;;;
-Neumonía bacteriana;{'edad': '80', 'especialidad': 'Medicina Interna'};{};[];9.62;;;;
-Infarto agudo de miocardio con elevación del segmento ST;{'edad': '60 años', 'especialidad': 'Medicina Interna'};{};[];11.55;;;;
-Bloqueo auriculoventricular completo;{'edad': '79 años', 'especialidad': 'Medicina Interna'};{};[];10.11;;;;
-Dispositivos cardiovasculares asociados con lesión o daño: catéter venoso central;{'edad': '74 años', 'especialidad': 'Medicina Interna'};null;[];12.65;;;;
-Otra hipertensión esencial especificada;Error;Error;Error;Error;Error al procesar: Expecting value: line 9 column 18 (char 230);13.49;;
-Neumonía;{'edad': '71 años', 'especialidad': 'Medicina Interna'};"{""agentes_causales"": ""organismo sin especificación""}";[];11.81;;;;
-Insuficiencia respiratoria crónica de tipo I;{'edad': '57 años', 'especialidad': 'Medicina Interna'};{};[];10.95;;;;
-Sepsis sin choque séptico;{'edad': '33 años', 'especialidad': 'Medicina Interna'};{};[];10.18;;;;
-Trastorno esquizoafectivo;{'edad': '32 años', 'especialidad': 'Psiquiatría Adulto'};"{""temporalidad"": ""crónico"", ""recurrencia"": ""episodios múltiples""}";[];15.59;;;;
-Enfermedad renal crónica;{'edad': '81 años', 'especialidad': 'Medicina Interna'};{};[];9.93;;;;
-Choque cardiogénico;{'edad': '74 años', 'especialidad': 'Medicina Interna'};{};[];9.82;;;;
-Trombosis venosa profunda de la extremidad inferior;{'edad': '79 años', 'especialidad': 'Medicina Interna'};{};[];11.02;;;;
-Hipertensión esencial;{'edad': '58 años', 'especialidad': 'Medicina Interna'};{};[];10.0;;;;
-Pancreatitis aguda;{'edad': '45 años', 'especialidad': 'Medicina Interna'};{};[];10.16;;;;
-Cardiomiopatía isquémica; sin especificación;Error;Error;Error;Error;Error al procesar: Expecting value: line 14 column 18 (char 303);21.36;
-Hipoglucemia sin diabetes asociada a glibenclamida;{'edad': '23 años', 'especialidad': 'Medicina Interna'};"{""causa_agente"": ""glibenclamida"", ""temporalidad"": null}";['sin diabetes asociada'];15.89;;;;
-Anemia ferropénica;{'edad': '59 años', 'especialidad': 'Medicina Interna'};{};[];10.19;;;;
-Hemorragia gastrointestinal; sin especificación;Error;Error;Error;Error;Error al procesar: Expecting value: line 11 column 18 (char 246);17.11;
-Angina estable;{'edad': '72 años', 'especialidad': 'Medicina Interna'};{};[];10.95;;;;
-Infarto agudo del miocardio;{'edad': '80', 'especialidad': 'Medicina Interna'};"{""temporalidad"": ""aguda""}";[];11.63;;;;
-Reacciones cutáneas adversas a la medicación; sin especificación;Error;Error;Error;Error;Error al procesar: Expecting value: line 11 column 18 (char 263);15.87;
-Hipertensión esencial;{'edad': '60 años', 'especialidad': 'Medicina Interna'};null;['sin especificación'];11.15;;;;
-Metástasis de neoplasia maligna a la pleura;{'edad': '77 años', 'especialidad': 'Medicina Interna'};{};[];11.57;;;;
-Dependencia de cocaína;{'edad': '29 años', 'especialidad': 'Psiquiatría Adulto'};{};[];10.58;;;;
-Trastorno de personalidad; sin especificación;{'edad': '46 años', 'especialidad': 'Psiquiatría Adulto'};{};[];11.06;;;
-Accidente cerebrovascular isquémico;{'edad': '62 años', 'especialidad': 'Medicina Interna'};{};['sin especificación'];12.91;;;;
-Zóster oftálmico;{'edad': '77 años', 'especialidad': 'Medicina Interna'};{};[];9.83;;;;
-Sepsis sin choque séptico;{'edad': '90', 'especialidad': 'Medicina Interna'};{};[];9.97;;;;
-Arteriolopatía calcificada;{'edad': '59', 'especialidad': 'Medicina Interna'};{};[];10.25;;;;
-Esquizofrenia; primer episodio; en remisión parcial;Error;Error;Error;Error;Error al procesar: Expecting value: line 13 column 18 (char 302);20.85
-Insuficiencia respiratoria;{'edad': '56 años', 'especialidad': 'Medicina Interna'};{};[];10.7;;;;
-Síncope y colapso;{'edad': '70 años', 'especialidad': 'Medicina Interna'};{};[];10.71;;;;
+diagnostico,contexto,elementos_poscoordinacion,ruido_clinico,tiempo_respuesta,explicacion
+Várices esofágicas secundarias con hemorragia,"{'edad': '51 años', 'especialidad': 'Medicina Interna'}",[],[],26.98,"Se identifica el diagnóstico principal según la sintaxis de la CIE-11. No se especifican enfermedades secundarias en el texto clínico, por lo que se estructura como 'vacío'."
+Neumonía,"{'edad': '75 años', 'especialidad': None}",[],[],18.61,Se establece la neumonía como diagnóstico principal. No se presentan modificadores ni enfermedades secundarias precisas.
+Pielonefritis aguda,"{'edad': '27 años', 'especialidad': 'Medicina Interna'}",[],[],16.73,No hay información adicional que precisar.
+Hemorragia gastrointestinal,"{'edad': '62 años', 'especialidad': 'Medicina Interna'}",[],['sin especificación'],20.43,"Se estructuró el diagnóstico principal según la información proporcionada. Debido a la falta de especificidad en el diagnóstico, no se han incluido modificadores ni enfermedades secundarias."
+Neumonía,"{'edad': '91 años', 'especialidad': 'Medicina Interna'}",[],[],19.5,Se estructuró el diagnóstico principal según la sintaxis de la CIE-11. No se encontraron modificadores o enfermedades secundarias adicionales.
+Trastornos de la regulación inmunitaria con predominio de la linfoproliferación,"{'edad': '57 años', 'especialidad': 'Medicina Interna'}",[],[],18.66,No se presentan modificadores o enfermedades secundarias específicas en el diagnóstico
+Neuromielitis óptica,"{'edad': '57 años', 'especialidad': 'Medicina Interna'}",[],[],19.78,Se considera la Neuromielitis óptica como diagnóstico principal sin especificación. No se proporcionan datos suficientes para estructurar poscoordinación o ruido clínico.
+Neumonía bacteriana,"{'edad': '79 años', 'especialidad': 'Medicina Interna'}",[],['sin especificación'],18.64,El diagnóstico principal es la neumonía bacteriana. No se proporcionan modificadores o enfermedades secundarias adicionales.
+Insuficiencia respiratoria aguda de tipo I,"{'edad': '69', 'especialidad': 'Medicina Interna'}",[],[],20.29,"No se proporcionan detalles adicionales sobre la edad del paciente, pero se incluye en el contexto. No hay información de poscoordinación ni ruido clínico relevante."
+Infarto agudo de miocardio sin elevación del segmento ST,"{'edad': '73 años', 'especialidad': 'Medicina Interna'}",[],[],20.62,"El diagnóstico principal se centra en el infarto agudo de miocardio sin elevación del segmento ST, no hay poscoordinaciones específicas mencionadas."
+Taquicardia ventricular,"{'edad': '49 años', 'especialidad': 'Medicina Interna'}",[],[],28.66,"Se establece la taquicardia como diagnóstico principal. En la poscoordinación, los síntomas de paro cardíaco y fibrilación actúan como modificadores (&), mientras que el paro cardíaco por fibrilación es una enfermedad secundaria asociada (/)."
+Insuficiencia cardíaca,"{'edad': '73 años', 'especialidad': 'Medicina Interna'}",[],['sin especificación'],20.73,"El diagnóstico principal es la insuficiencia cardíaca, sin se menciona una enfermedad o síntoma específico. No hay modificadores ni enfermedades secundarias asociadas."
+Infarto agudo de miocardio con elevación del segmento ST,"{'edad': '68 años', 'especialidad': 'Medicina Interna'}",[],[''],22.4,"La edad y especialidad se extrajeron del contexto. Como no hay información adicional sobre poscoordinación, modificadores o enfermedades secundarias, estos campos están vacíos."
+Otra colitis ulcerosa,"{'edad': '45 años', 'especialidad': 'Medicina Interna'}",[],[],15.03,No se especifican modificadores o enfermedades secundarias
+Neumonía,"{'edad': '75 años', 'especialidad': 'Medicina Interna'}",[],[],18.71,Se estructuran los datos según la información proporcionada sobre el diagnóstico principal y la edad del paciente.
+Infección urinaria por Klebsiella pneumoniae,"{'edad': '64 años', 'especialidad': 'Medicina Interna'}",[],['localización no especificada'],21.13,El diagnóstico principal es la infección urinaria. No se han identificado modificadores o enfermedades secundarias específicas.
+Hipertensión esencial,"{'edad': '72 años', 'especialidad': 'Medicina Interna'}",[],[],18.43,"La hipertensión esencial es el diagnóstico principal. Como no se proporciona información de poscoordinación, los campos correspondientes permanecen vacíos."
+Insuficiencia renal crónica de grado 5,"{'edad': '45 años', 'especialidad': 'Medicina Interna'}",[],[],19.28,"El diagnóstico principal se basa en la insuficiencia renal crónica de grado 5, sin modificadores ni enfermedades secundarias específicas mencionadas."
+Polineuropatía desmielinizante inflamatoria aguda,"{'edad': '77 años', 'especialidad': None}",[],['sin alergias conocidas'],23.04,Se considera la polineuropatía como diagnóstico principal sin modificadores o enfermedades secundarias específicas mencionadas.
+Insuficiencia cardíaca crónica,"{'edad': '87', 'especialidad': 'Medicina Interna'}",[],[],16.0,No se proporcionan elementos de poscoordinación ni ruido clínico.
+Neumonía,"{'edad': '90', 'especialidad': 'Medicina Interna'}",[],[],18.11,"Se establece la neumonía como diagnóstico principal. Como no se proporciona información adicional, se considera un diagnóstico simple."
+Algunas enfermedades especificadas del hígado,"{'edad': '56 años', 'especialidad': 'Medicina Interna'}",[],[],22.29,Se estructuró el diagnóstico principal según la descripción de enfermedades del hígado. No se encontraron modificadores o enfermedades secundarias en el texto.
+Trombosis de la vena cava,"{'edad': '56 años', 'especialidad': 'Medicina Interna'}",[],[],14.14,
+Pielonefritis bacteriana aguada,"{'edad': '67 años', 'especialidad': 'Medicina Interna'}",[],[],16.75,Diagnóstico principal establecido sin elementos de poscoordinación adicionales
+Tromboembolia pulmonar aguda,"{'edad': '83 años', 'especialidad': 'Medicina Interna'}",[],[],21.18,"El diagnóstico principal se establece como Tromboembolia pulmonar aguda. La estructura de la poscoordinación no es aplicable en este caso, ya que no hay información adicional proporcionada."
+Neumonía bacteriana,"{'edad': '62 años', 'especialidad': 'Medicina Interna'}",[],['sin especificación'],23.37,"Dado que no se proporciona información adicional, la neumonía bacteriana es considerada el diagnóstico principal. La estructura de poscoordinación está vacía debido a la falta de detalles en el texto clínico."
+Demencia debida a una enfermedad cerebrovascular,"{'edad': '76 años', 'especialidad': 'Medicina Interna'}",[],[],21.04,"El diagnóstico principal se refiere a la causa de la demencia, que es una enfermedad cerebrovascular. No hay información adicional que se pueda incluir en los modificadores o enfermedades secundarias."
+Pielonefritis aguda,"{'edad': '38 años', 'especialidad': 'Medicina Interna'}",[],[],25.75,"No se proporciona información adicional, por lo que el diagnóstico principal es la pielefritis aguda. No hay modificadores o enfermedades secundarias establecidas."
+Cetoacidosis diabética sin coma,"{'edad': '25 años', 'especialidad': 'Medicina Interna'}",[],[],19.76,"La cetoacidosis diabética es el diagnóstico principal. Como no se especifican modificadores o enfermedades secundarias, se estructuran como objetos vacíos."
+Angina de pecho,"{'edad': '53 años', 'especialidad': 'Medicina Interna'}",[],[],19.72,"El diagnóstico principal se ha establecido como angina de pecho, sin específicar la cualidad. No se han encontrado modificadores o enfermedades secundarias en la información proporcionada."
+Cardiopatía isquémica aguda,"{'edad': '74', 'especialidad': 'Medicina Interna'}",[],[],20.55,"La cardiopatía isquémica aguda es el diagnóstico principal. No hay poscoordinación específica, por lo que se estructuran las entidades como diagnóstico principal."
+Neumonía bacteriana,"{'edad': '82 años', 'especialidad': 'Medicina Interna'}",[],['sin especificación'],22.28,"Se asume que la neumonía es el diagnóstico principal. Dado que no se proporciona información adicional, las categorías de poscoordinación y ruido clínico se mantienen vacías."
+Angina inestable,"{'edad': '77 años', 'especialidad': 'Medicina Interna'}",[],[],17.25,El diagnóstico se establece sin información adicional que requiera ser clasificado como modificador o enfermedad secundaria.
+Neumonía viral,"{'edad': '57 años', 'especialidad': 'Medicina Interna'}",[],[],16.94,No se proporcionan suficientes detalles para separar poscoordinación.
+Insuficiencia respiratoria aguda de tipo I,"{'edad': '72 años', 'especialidad': 'Medicina Interna'}",[],[],15.54,
+Absceso piógeno de la piel,"{'edad': '56', 'especialidad': 'Medicina Interna'}",[],[],15.79,No hay información adicional para estructurar.
+Infarto agudo de miocardio sin elevación del segmento ST,"{'edad': '62 años', 'especialidad': 'Medicina Interna'}",[],[],17.37,No se proporcionan detalles adicionales para estructurar la poscoordinación
+Hiperplasia de la próstata,"{'edad': '56 años', 'especialidad': 'Medicina Interna'}",[],[],18.07,El diagnóstico se estructuró como principal porque no hay información sobre afecciones adicionales o comorbilidades.
+Hemorragia gastrointestinal,"{'edad': '39 años', 'especialidad': 'Medicina Interna'}",[],[],20.05,Se ha establecido como diagnóstico principal la Hemorragia gastrointestinal sin especificar. No se han encontrado elementos de poscoordinación ni ruido clínico relevante.
+Neumonía,"{'edad': '58 años', 'especialidad': 'Medicina Interna'}",[],[],19.31,"Se considera neumonía como diagnóstico principal, sin modificadores adicionales ni enfermedades secundarias específicas."
+Insuficiencia renal crónica de grado 5,"{'edad': '73 años', 'especialidad': 'Medicina Interna'}",[],[],20.98,La información proporcionada no incluye suficiente detalles para estructurar la poscoordinación. El diagnóstico principal es la insuficiencia renal crónica de grado 5.
+Cirrosis hepática aguda,"{'edad': '56 años', 'especialidad': 'Medicina Interna'}",[],[],25.68,"Se extrae la información sobre la edad y especialidad del paciente. El diagnóstico principal es una afección hepática aguda, con lcera gastroduodenal como enfermedad secundaria asociada."
+Cetoacidosis diabética sin coma,"{'edad': '61 años', 'especialidad': 'Medicina Interna'}",[],['sin otros datos relevantes proporcionados'],18.77,"No hay poscoordinación específica, por lo que se mantiene vacío."
+Estado hiperglucémico hiperosmolar diabético,"{'edad': '82 años', 'especialidad': 'Medicina Interna'}",[],[],22.55,"El diagnóstico principal se establece como el estado hiperglucémico hiperosmolar diabético. Dado que no hay información adicional sobre modificadores o enfermedades secundarias, estas categorías están vacías."
+Influenza debida a virus de la influenza estacional identificado,"{'edad': '79', 'especialidad': 'Medicina Interna'}",[],[],18.43,No se encontraron poscoordinaciones o ruidos clínicos relevantes.
+Insuficiencia cardíaca congestiva crónica,"{'edad': '70 años', 'especialidad': 'Medicina Interna'}",[],[],16.98,No se proporciona información adicional que requiera separación en poscoordinación.
+Influenza debida a virus de la influenza estacional identificado,"{'edad': '53 años', 'especialidad': 'Medicina Interna'}",[],[],19.69,La influenza se establece como diagnóstico principal sin información adicional.
+Insuficiencia respiratoria,"{'edad': '40 años', 'especialidad': 'Medicina Interna'}",[],[],15.83,
+Patrón nocivo de uso de cocaína,"{'edad': '36 años', 'especialidad': 'Medicina Interna'}",[],[],23.21,"El diagnóstico principal se refiere a un patrón nocivo de uso de cocaína. Dado que no hay información adicional sobre factores como lateralidad, anatomía específica, gravedad o estadio, la poscoordinación está vacía."
+Taquiarritmia supraventricular,"{'edad': '66', 'especialidad': 'Medicina Interna'}",[],[],13.95,
+Insuficiencia cardíaca crónica,"{'edad': '27', 'especialidad': 'Medicina Interna'}",[],[],16.58,No hay suficiente información para extraer modificadores ni enfermedades secundarias.
+Insuficiencia respiratoria aguda,"{'edad': '73 años', 'especialidad': 'Medicina Interna'}",[],[],17.59,No hay suficiente información para estructurar la poscoordinación o ruido clínico.
+Infarto agudo del miocardio,"{'edad': '71 años', 'especialidad': 'Medicina Interna'}",[],[],17.69,Se establece el infarto agudo del miocardio como diagnóstico principal sin poscoordinación específica.
+Neumonía bacteriana,"{'edad': '86 años', 'especialidad': 'Medicina Interna'}",[],[],18.29,"El diagnóstico principal de neumonía bacteriana no tiene poscoordinación específica, pero se incluye como diagnóstico principal."
+Oclusión arterial retiniana,"{'edad': '39 años', 'especialidad': 'Medicina Interna'}",[],[],22.82,"Se estructuró el diagnóstico principal como la oclusión arterial retiniana, sin información adicional de poscoordinación o ruido clínico relevante para este caso."
+Diabetes mellitus no controlada o inestable,"{'edad': '61 años', 'especialidad': 'Medicina Interna'}",[],[],17.27,No se encontraron modificadores ni enfermedades secundarias en el diagnóstico principal
+Catatonia,"{'edad': '63', 'especialidad': 'Medicina Interna'}",[],['sin especificación'],18.41,No se proporcionan elementos de poscoordinación o ruido clínico relevante para la estructura del diagnóstico.
+Cardiopatía isquémica aguda,"{'edad': '63 años', 'especialidad': 'Medicina Interna'}",[],[],17.67,No se han encontrado modificadores o enfermedades secundarias específicas en el diagnóstico proporcionado.
+Insuficiencia respiratoria aguda de tipo I,"{'edad': '86 años', 'especialidad': 'Medicina Interna'}",[],[],19.14,El diagnóstico principal se mantiene como tal. No se mencionan modificadores o enfermedades secundarias.
+Neumonía,"{'edad': '78 años', 'especialidad': 'Medicina Interna'}",[],[],21.14,"Se establece la neumonía como diagnóstico principal. Dado que el organismo causante no está específicamente mencionado, se considera un modificador."
+Celulitis orbitaria,"{'edad': '92 años', 'especialidad': 'Medicina Interna'}",[],[],21.19,El diagnóstico principal es la celulitis orbitaria. No se detectaron modificadores o enfermedades secundarias en el texto.
+Insuficiencia renal crónica de grado 5,"{'edad': '76 años', 'especialidad': 'Medicina Interna'}",[],[],24.62,"El diagnóstico principal está establecido como Insuficiencia renal crónica de grado 5. Dado que no se mencionan modificadores ni enfermedades secundarias específicas en el texto clínico, las listas correspondientes se muestran vacías."
+Síncope y colapso,"{'edad': '25 años', 'especialidad': 'Medicina Interna'}",[],[],18.36,No se especifica la especialidad dentro del texto clínico. Se establece el diagnóstico principal según el texto proporcionado.
+Enfermedad pulmonar obstructiva crónica,"{'edad': '50 años', 'especialidad': 'Medicina Interna'}",[],[],15.99,No hay información adicional para agregar.
+Infección urinaria por Klebsiella pneumoniae,"{'edad': '75 años', 'especialidad': 'Medicina Interna'}",[],[],18.26,El diagnóstico principal se extrae directamente de la información proporcionada.
+Otra neumonía especificada,"{'edad': '38 años', 'especialidad': 'Medicina Interna'}",[],[],15.55,No hay información adicional para extraer.
+Hiponatremia,"{'edad': '79 años', 'especialidad': 'Medicina Interna'}",[],[],19.34,No se encontraron modificadores o enfermedades secundarias en la descripción del diagnóstico.
+Insuficiencia respiratoria aguda,"{'edad': '70 años', 'especialidad': 'Medicina Interna'}",[],[],22.33,"El diagnóstico principal se estructura según la sintaxis de CIE-11, sin especificación de otros factores que añadan especificidad."
+Tromboembolia pulmonar aguda,"{'edad': '80', 'especialidad': 'Medicina Interna'}",[],[],15.41,
+"Trastorno de personalidad, sin especificación","{'edad': '25 años', 'especialidad': 'Psiquiatría Adulto'}",[],[],19.19,"El diagnóstico principal es un trastorno de personalidad no especificado, por lo que no hay poscoordinación adicional."
+Hipercalcemia,"{'edad': '70 años', 'especialidad': 'Medicina Interna'}",[],[],19.29,La hipercalcemia es el diagnóstico principal. No se proporcionan modificadores o enfermedades secundarias específicas.
+Influenza debida a virus de la influenza estacional,"{'edad': '34 años', 'especialidad': 'Medicina Interna'}",[],[],25.15,"Se estructuró el diagnóstico principal según la entidad primaria. La poscoordinación se limita a especificar el agente causal, como es común en esta clasificación de enfermedad."
+Hemorragia intracerebral,"{'edad': '82 años', 'especialidad': 'Medicina Interna'}",[],[],23.23,"Se estructuró el diagnóstico principal según la descripción de la hemorragia intracerebral sin especificar. Como no se proporcionan factores adicionales, la poscoordinación es mínima."
+Cardiopatía isquémica aguda,"{'edad': '55 años', 'especialidad': 'Medicina Interna'}",[],[],21.65,"El diagnóstico principal se establece como cardiopatía isquémica aguda. Dado que no hay especificaciones adicionales, la estructura de poscoordinación queda vacía."
+Infección urinaria por Klebsiella pneumoniae,"{'edad': '67 años', 'especialidad': 'Medicina Interna'}",[],[],25.65,"El diagnóstico principal es la infección urinaria. Como no hay información adicional sobre factores modificadores o enfermedades secundarias, estas categorías se quedan vacías."
+Cistitis,"{'edad': '42 años', 'especialidad': 'Medicina Interna'}",[],['sin especificación'],18.07,"Se establece la cistitis como diagnóstico principal, sin especificar grado de severidad o complicaciones."
+Otro síncope y colapso especificado,"{'edad': '73 años', 'especialidad': 'Medicina Interna'}",[],[],19.26,El diagnóstico principal no tiene modificadores o enfermedades secundarias específicas. El ruido clínico está vacío.
+Insuficiencia renal crónica de grado 5,"{'edad': '70', 'especialidad': 'Medicina Interna'}",[],[],22.67,"El diagnóstico principal es la insuficiencia renal crónica, con un estadio específico. No hay elementos de poscoordinación adicionales o ruido clínico relevante."
+Neumonía adquirida en el hospital,"{'edad': '61 años', 'especialidad': 'Medicina Interna'}",[],['paciente fue diagnosticado dentro del hospital'],19.31,No se encontraron modificadores ni enfermedades secundarias en la descripción clínica.
+Sepsis,"{'edad': '68 años', 'especialidad': 'Medicina Interna'}",[],[],20.47,Se estructuran los datos considerando la sepsis como el diagnóstico principal y no se menciona ninguna enfermedad secundaria asociada.
+Influenza debida a virus de la influenza estacional identificado,"{'edad': '77 años', 'especialidad': 'Medicina Interna'}",[],[],20.21,"Diagnóstico principal directo, sin información adicional ni ruido clínico"
+Neumonía,"{'edad': '81 años', 'especialidad': 'Medicina Interna'}",[],[],28.18,"Se estructuró el diagnóstico principal como la neumonía, considerando que está secundaria a la Enfermedad Pulmonar Obstructiva Crónica. La poscoordinación se divide en modificadores y enfermedades secundarias según corresponda."
+Intento de suicidio,"{'edad': '40 años', 'especialidad': 'Medicina Interna'}",[],[],19.56,No se proporcionan detalles adicionales para estructurar la poscoordinación.
+"Lesión autoinfligida intencionalmente por exposición a múltiples fármacos, medicamentos o sustancias biológicas o a sus efectos nocivos","{'edad': '23 años', 'especialidad': 'Psiquiatría Adulto'}",[],,26.26,"El diagnóstico principal se basa en la exposición intencional a múltiples fármacos y sustancias, sin otros datos de poscoordinación o ruido clínico relevantes."
+Otro lupus eritematoso especificado,"{'edad': '60 años', 'especialidad': 'Medicina Interna'}",[],[],16.88,Diagnóstico principal sin modificadores ni enfermedades secundarias específicas.
+Otros trastornos especificados de la conciencia,"{'edad': '71 años', 'especialidad': 'Medicina Interna'}",[],[],21.11,"Se estructuró el diagnóstico principal según la clasificación proporcionada. Dado que no se proporcionan modificadores o enfermedades secundarias, se dejaron en blanco."
+Infecciones intestinales por Clostridium difficile,"{'edad': '63 años', 'especialidad': 'Medicina Interna'}",[],[],18.77,No se proporciona ruido clínico o elementos de poscoordinación adicionales.
+Infección urinaria por Escherichia coli,"{'edad': '69 años', 'especialidad': 'Medicina Interna'}",[],['localización no especificada'],26.92,"El diagnóstico principal es la infección urinaria por Escherichia coli. Como no se menciona una localización específica, se asume que no hay enfermedades secundarias asociadas. El ruido clínico contiene solo la información de localización."
+Otra osteomielitis aguda,"{'edad': '29 años', 'especialidad': 'Medicina Interna'}",[],[],21.48,Se estructuró el diagnóstico principal como osteomielitis aguda sin indicación de elementos de poscoordinación ni ruido clínico relevante.
+Neumonía,"{'edad': '85 años', 'especialidad': 'Medicina Interna'}",[],[],19.46,Se establece la neumonía como diagnóstico principal. La enfermedad secundaria asociada es el organismo no especificado.
+Neumonía bacteriana,"{'edad': '82 años', 'especialidad': 'Medicina Interna'}",[],['sin especificación'],18.54,No se proporciona información adicional o modificaciones que permitan estructurar la poscoordinación de manera más precisa.
+Infección urinaria,"{'edad': '63 años', 'especialidad': 'Medicina Interna'}",[],"['localización no especificada', 'microbio patógeno no especificado']",22.48,"El diagnóstico principal es la infección urinaria, pero se carece de detalles sobre localización y microbio patógeno."
+Insuficiencia respiratoria,"{'edad': '66 años', 'especialidad': 'Medicina Interna'}",[],[],19.91,La insuficiencia respiratoria se establece como diagnóstico principal. No hay información adicional sobre poscoordinación o ruido clínico.
+"Síncope y colapso, sin especificación","{'edad': '67 años', 'especialidad': 'Medicina Interna'}",[],[],17.34,No se proporciona información suficiente para estructurar la poscoordinación con precisión.
+Miocardiopatía por estrés,"{'edad': '80 años', 'especialidad': 'Medicina Interna'}",[],[],14.86,
+Síndrome diarreico,"{'edad': '81 años', 'especialidad': 'Medicina Interna'}",[],[],17.68,No se proporciona información adicional para estructurar la poscoordinación y ruido clínico.
+Síndrome de muerte súbita arrítmica,"{'edad': '62 años', 'especialidad': 'Medicina Interna'}",[],[],17.96,La información proporcionada no incluye detalles sobre poscoordinación o ruido clínico.
+Infarto agudo de miocardio sin elevación del segmento ST,"{'edad': '61 años', 'especialidad': 'Medicina Interna'}",[],[],18.74,No hay información adicional proporcionada que permita estructurar la poscoordinación de manera más específica.
+Trastorno de personalidad,"{'edad': '26 años', 'especialidad': 'Psiquiatría Adulto'}",[],[],16.55,No hay información adicional para la estructura del diagnóstico
+Infarto agudo de miocardio sin elevación de ST,"{'edad': '76', 'especialidad': 'Medicina Interna'}",[],[],22.79,Se establece el infarto agudo de miocardio como diagnóstico principal. La localización en la pared anterior se considera un modificador (&).
+Sepsis con choque séptico,"{'edad': '76 años', 'especialidad': 'Medicina Interna'}",[],[],16.14,No se proporcionan datos adicionales para estructurar la poscoordinación
+Infarto agudo de miocardio sin elevación del segmento ST,"{'edad': '59 años', 'especialidad': 'Medicina Interna'}",[],[],20.86,"No se proporcionan detalles adicionales sobre la historia clínica ni síntomas asociados, por lo que el diagnóstico principal es aislado."
+"Delirium, de causa no especificada o desconocida","{'edad': '81 años', 'especialidad': 'Medicina Interna'}",[],[],19.63,No se proporciona suficiente información para estructurar la poscoordinación. Se considera el diagnóstico principal como causa no especificada o desconocida.
+Mielopatía,"{'edad': '37 años', 'especialidad': 'Medicina Interna'}",[],[],13.51,
+Hipertrofia prostatica,"{'edad': '86', 'especialidad': 'Medicina Interna'}",[],[],20.15,"La hiperplasia de la próstata es el diagnóstico principal, sin elementos de poscoordinación o ruido clínico mencionados."
+Insuficiencia renal crónica,"{'edad': '68 años', 'especialidad': 'Medicina Interna'}",[],[],21.9,"El diagnóstico principal es la insuficiencia renal crónica. No se mencionan enfermedades secundarias, solo la gravedad de la afección."
+Insuficiencia respiratoria,"{'edad': '73 años', 'especialidad': 'Medicina Interna'}",[],[],22.36,"El diagnóstico principal es la insuficiencia respiratoria. Como no se proporciona información adicional, no hay poscoordinación específica ni ruido clínico relevante."
+Púrpura trombocitopénica inmunitaria,"{'edad': '56 años', 'especialidad': 'Medicina Interna'}",[],[],23.03,Se establece la Púrpura trombocitopénica inmunitaria como diagnóstico principal. No se encontraron modificadores ni enfermedades secundarias en el texto proporcionado.
+Anafilaxia provocada por medicamentos,"{'edad': '78', 'especialidad': 'Medicina Interna'}",[],[],20.27,"La estructura del diagnóstico principal es clara. Como no se proporciona información adicional, la poscoordinación está vacía y el ruido clínico es nulo."
+Enteritis eosinofílica,"{'edad': '22 años', 'especialidad': 'Medicina Interna'}",[],[],17.95,"El diagnóstico principal es la enteritis eosinofílica, sin modificadores o enfermedades secundarias mencionadas."
+Enteritis eosinofílica,"{'edad': '74', 'especialidad': 'Medicina Interna'}",[],,15.65,No se proporcionan datos adicionales
+Insuficiencia renal aguda de grado 1,"{'edad': '59 años', 'especialidad': 'Medicina Interna'}",[],[],17.93,El diagnóstico principal está claro y no hay información adicional o ruido clínico en el texto proporcionado.
+Hipertensión esencial,"{'edad': '47', 'especialidad': 'Medicina Interna'}",[],[],20.23,"Dado que no se proporciona información adicional, se considera el diagnóstico principal. No hay poscoordinación específica ni ruido clínico relevante."
+Diabetes mellitus tipo 2,"{'edad': '64 años', 'especialidad': 'Medicina Interna'}",[],[],18.07,No se presentan enfermedades secundarias o antecedentes que requieran ser incluidos en la estructura.
+Síndrome diarreico,"{'edad': '67 años', 'especialidad': 'Medicina Interna'}",[],[],16.39,No se proporciona información adicional para estructurar los datos.
+"Enfermedades de la arteria coronaria, sin especificación","{'edad': '69 años', 'especialidad': 'Medicina Interna'}",[],[],24.25,"Se identifica el diagnóstico principal como enfermedades de la arteria coronaria. La arteria nodal sinoauricular se considera una especificación, pero no un factor que añada modificadores al diagnóstico principal."
+Infarto subsecuente del miocardio,"{'edad': '37 años', 'especialidad': 'Medicina Interna'}",[],[],21.11,"Se estructuró como el diagnóstico principal la condición más importante, sin incluir modificadores adicionales por falta de información específica en el texto."
+lcera duodenal aguda,"{'edad': '98 años', 'especialidad': 'Medicina Interna'}",[],[],17.44,La cie11 no proporciona suficiente información para establecer modificadores o enfermedades secundarias.
+Trombosis venosa profunda de la extremidad inferior,"{'edad': '55 años', 'especialidad': 'Medicina Interna'}",[],[],16.97,No se presentan otros diagnósticos ni síntomas relevantes.
+Cirrosis hepática,"{'edad': '56 años', 'especialidad': 'Medicina Interna'}",[],[],17.5,"No se proporcionan detalles adicionales, solo el diagnóstico principal."
+Fibrosis pulmonar idiopática,"{'edad': '65 años', 'especialidad': 'Medicina Interna'}",[],[],19.29,El diagnóstico principal se establece como Fibrosis pulmonar idiopática. No se mencionan modificadores ni enfermedades secundarias asociadas.
+"Dispositivos cardiovasculares terapéuticos, no quirúrgicos o de rehabilitación asociados con lesión o daño","{'edad': '57 años', 'especialidad': 'Medicina Interna'}",[],[],24.81,Se estructuró el diagnóstico principal como dispositivo cardiovascular terapéutico asociado con lesión o daño. No se encontraron modificadores o enfermedades secundarias explícitas.
+Infarto agudo del miocardio,"{'edad': '74 años', 'especialidad': 'Medicina Interna'}",[],[],19.57,"El infarto agudo del miocardio es el diagnóstico principal, sin especificación de complicaciones o enfermedades asociadas. No hay ruido clínico relevante."
+Neumonía bacteriana,"{'edad': '72 años', 'especialidad': 'Medicina Interna'}",[],[],16.64,No se proporcionan modificadores o enfermedades secundarias en el texto clínico.
+Angina de pecho,"{'edad': '52 años', 'especialidad': 'Medicina Interna'}",[],[],18.22,No se proporcionan detalles adicionales para la estructuración de los datos.
+Absceso pulmonar con neumonía,"{'edad': '50 años', 'especialidad': 'Medicina Interna'}",[],[],18.87,Se estructuran los datos como diagnóstico principal debido a la falta de una subcategorización más específica.
+Cetoacidosis diabética sin coma,"{'edad': '50 años', 'especialidad': 'Medicina Interna'}",[],[],20.61,"La Cetoacidosis diabética es el diagnóstico principal. Como no hay información específica, se estructuran las categorías vacías."
+Neumonía,"{'edad': '55', 'especialidad': 'Medicina Interna'}",[],[],21.04,"Se considera la neumonía como diagnóstico principal, sin enfermedades secundarias mencionadas. El ruido clínico está vacío."
+Hipertensión esencial,"{'edad': '83 años', 'especialidad': 'Medicina Interna'}",[],['sin especificación'],19.4,"Se considera la hipertensión como el diagnóstico principal más relevante, sin especificación de otros posibles diagnósticos."
+Hemorragia gastrointestinal,"{'edad': '71 años', 'especialidad': 'Medicina Interna'}",[],[],19.97,"Se estructuró el diagnóstico principal de Hemorragia gastrointestinal, sin especificación detallada. No se encuentran modificadores o enfermedades secundarias asociadas en la descripción."
+Enfermedad pulmonar obstructiva crónica con exacerbación aguda,"{'edad': '82 años', 'especialidad': 'Medicina Interna'}",[],['no especificada'],27.96,El diagnóstico principal corresponde a la enfermedad pulmonar obstructiva crónica con exacerbación aguda. No se identifican modificadores ni enfermedades secundarias específicas.
+Enfermedad renal crónica,"{'edad': '58 años', 'especialidad': 'Medicina Interna'}",[],[],18.82,El diagnóstico principal es la enfermedad renal crónica. No se proporcionan modificadores o enfermedades secundarias adicionales.
+Infarto agudo del miocardio,"{'edad': '83 años', 'especialidad': 'Medicina Interna'}",[],[],21.15,El infarto agudo del miocardio se considera diagnóstico principal ya que no especifica una ubicación anatómica. No hay poscoordinación explícita en el texto.
+Cirrosis hepática,"{'edad': '53 años', 'especialidad': 'Medicina Interna'}",[],[],17.9,No se mencionan elementos de poscoordinación o ruido clínico en el texto proporcionado.
+Insuficiencia respiratoria,"{'edad': '45 años', 'especialidad': 'Medicina Interna'}",[],[],19.55,"El diagnóstico principal no especifica la causa, por lo que se estructuró como tal. No hay información adicional proporcionada para agregar modificadores o enfermedades secundarias."
+Trastorno depresivo recurrente,"{'edad': '56', 'especialidad': 'Psiquiatría Adulto'}",[],[],25.39,"Se estructuró como principal el trastorno depresivo recurrente, siendo la gravedad y ausencia de síntomas psicóticos modificadores."
+Insuficiencia respiratoria de tipo II,"{'edad': '80 años', 'especialidad': 'Medicina Interna'}",[],[],21.57,"La enfermedad principal se ha identificado como insuficiencia respiratoria de tipo II. No se presentan modificadores ni enfermedades secundarias explícitas en el texto, y no hay ruido clínico relevante."
+Taquiarritmia supraventricular,"{'edad': '37', 'especialidad': 'Medicina Interna'}",[],[],22.43,No se encontraron elementos de poscoordinación específicos. El diagnóstico principal es la taquiarritmia supraventricular.
+Otras condropatías especificadas,"{'edad': '72 años', 'especialidad': 'Medicina Interna'}",[],[],20.38,El diagnóstico principal se mantiene como 'Otras condropatías especificadas' sin información adicional que permita agregar modificadores o enfermedades secundarias.
+Accidente cerebrovascular isquémico,"{'edad': '75 años', 'especialidad': 'Medicina Interna'}",[],[],22.01,"El accidente cerebrovascular isquémico se considera como diagnóstico principal, sin necesidad de especificación adicional. No se mencionan modificadores ni enfermedades secundarias asociadas en este caso."
+Infarto agudo del miocardio,"{'edad': '61 años', 'especialidad': 'Medicina Interna'}",[],[],17.65,"El diagnóstico principal se extrae directamente, ya que no se proporcionan detalles de poscoordinación."
+Erupción cutánea maculopapulosa aguda,"{'edad': '28', 'especialidad': 'Medicina Interna'}",[],[],17.4,"Diagnóstico clínico principal, sin información adicional de poscoordinación."
+Enfermedad pulmonar obstructiva crónica con exacerbación aguda,"{'edad': '74 años', 'especialidad': 'Medicina Interna'}",[],[],19.77,La exacerbación aguda se considera como parte del diagnóstico principal.
+Pancreatitis aguda,"{'edad': '45 años', 'especialidad': 'Medicina Interna'}",[],[],18.28,Se considera la pancreatitis como diagnóstico principal sin información adicional.
+Trastorno de adaptación,"{'edad': '19 años', 'especialidad': 'Psiquiatría Adulto'}",[],[],17.4,El diagnóstico principal no tiene modificadores o enfermedades secundarias mencionadas.
+Insuficiencia cardíaca crónica,"{'edad': '91', 'especialidad': 'Medicina Interna'}",[],[],17.18,No se especifican elementos de poscoordinación o ruido clínico relevante.
+Arritmia cardíaca,"{'edad': '76 años', 'especialidad': 'Medicina Interna'}",[],[],20.26,"El diagnóstico principal es una arritmia cardíaca sin especificación. Como no se proporciona información adicional, la estructura de poscoordinación se mantiene vacía."
+Hipertensión esencial,"{'edad': '53 años', 'especialidad': 'Medicina Interna'}",[],[],20.97,"Se establece la hipertensión esencial como diagnóstico principal. En la poscoordinación, el control evolutivo del paciente actúa como modificador (&)."
+Hipertensión esencial,"{'edad': '74 años', 'especialidad': 'Medicina Interna'}",[],[],18.1,"Dado que no se proporcionan detalles específicos adicionales, el diagnóstico principal es la hipertensión esencial."
+Hemorragia gastrointestinal,"{'edad': '81 años', 'especialidad': 'Medicina Interna'}",[],['sin especificación'],19.37,"La edad del paciente y la especialidad se han extraído. La hemorragia gastrointestinal es el diagnóstico principal, pero sin especificación."
+Angina inestable,"{'edad': '64 años', 'especialidad': 'Medicina Interna'}",[],[],18.02,No se mencionan elementos de poscoordinación o ruido clínico en el diagnóstico.
+Anemia ferropénica adquirida hemorrágica,"{'edad': '91', 'especialidad': 'Medicina Interna'}",[],[],22.16,"Se establece la anemia ferropénica como diagnóstico principal. Dado que no se proporcionan modificadores o enfermedades secundarias, el JSON se estructura con estos campos vacíos."
+Várices esofágicas sangrantes,"{'edad': '66 años', 'especialidad': 'Medicina Interna'}",[],[],20.8,"Se considera al diagnóstico principal, no se especifican enfermedades secundarias ni modificadores específicos."
+Taquicardia auriculoventricular recíproca,"{'edad': '53 años', 'especialidad': 'Medicina Interna'}",[],['sin especificación'],24.25,El diagnóstico principal es la Taquicardia auriculoventricular recíproca. La poscoordinación se estructura ya que no se mencionan modificadores ni enfermedades secundarias.
+Insuficiencia respiratoria aguda de tipo I,"{'edad': '73 años', 'especialidad': 'Medicina Interna'}",[],['paciente con'],21.84,El diagnóstico principal es la insuficiencia respiratoria aguda de tipo I. No se mencionan modificadores o enfermedades secundarias específicas.
+"Carcinoma de células renales del riñón, excepto de la pelvis renal","{'edad': '68 años', 'especialidad': 'Medicina Interna'}",[],['excepto de la pelvis renal'],25.53,Se asume que el texto clínico no proporciona suficiente información para estructurar modificadores o enfermedades secundarias. El ruido clínico solo contiene un comentario relacionado con la precisión del diagnóstico.
+Ajuste o manejo de un marcapasos cardíaco,"{'edad': '71', 'especialidad': 'Medicina Interna'}",[],[],15.85,
+Enfermedad pulmonar obstructiva crónica (EPOC) con exacerbación aguda,"{'edad': '69 años', 'especialidad': 'Medicina Interna'}",[],[],27.43,Se asume que la enfermedad pulmonar obstructiva crónica es el trastorno primario y la exacerbación aguda es una caracterización adicional. No se encontraron antecedentes familiares o síntomas descartados en el texto clínico.
+Pielonefritis bacteriana aguda,"{'edad': '69 años', 'especialidad': 'Medicina Interna'}",[],[],23.2,Se establece la pielonefritis como diagnóstico principal. No se mencionan enfermedades secundarias ni ruido clínico relevante.
+Pielonefritis aguda,"{'edad': '92', 'especialidad': 'Medicina Interna'}",[],[],13.73,
+Anemia ferropénica adquirida hemorrágica,"{'edad': '18 años', 'especialidad': 'Medicina Interna'}",[],[],23.5,"La anemia ferropénica es considerada el diagnóstico principal. Dado que no se mencionan otros trastornos, la estructura se limita a este elemento principal."
+Anemia debida a una enfermedad crónica,"{'edad': '74 años', 'especialidad': 'Medicina Interna'}",[],[],23.05,La anemia se considera el diagnóstico principal. La enfermedad crónica es descrita como causa de la anemia pero no se proporciona más información.
+Infección urinaria,"{'edad': '93 años', 'especialidad': 'Medicina Interna'}",[],[],21.02,"La infección urinaria se considera el diagnóstico principal. Dado que no se proporcionan modificadores o enfermedades secundarias específicas, los campos correspondientes se mantienen vacíos."
+Acidosis,"{'edad': '73 años', 'especialidad': 'Medicina Interna'}",[],['sin especificación resuelta'],23.04,Se considera Acidosis como diagnóstico principal sin modificadores o enfermedades secundarias específicas. El ruido clínico contiene la falta de especificación del tipo de acidosis.
+Inflamación del colon,"{'edad': '86 años', 'especialidad': 'Medicina Interna'}",[],[],14.01,
+Sepsis con choque séptico,"{'edad': '81 años', 'especialidad': 'Medicina Interna'}",[],[],17.68,La sepsis y el choque séptico no tienen modificadores o enfermedades secundarias explícitas.
+Neumonía bacteriana,"{'edad': '80 años', 'especialidad': 'Medicina Interna'}",[],[],19.63,"Se consideró la edad del paciente y la especialidad médica. Como no se proporcionaron detalles sobre el diagnóstico principal, se tomó como base el nombre de la enfermedad."
+Infarto agudo de miocardio con elevación del segmento ST,"{'edad': '60', 'especialidad': 'Medicina Interna'}",[],[],17.0,No se especifican modificadores ni enfermedades secundarias.
+Bloqueo auriculoventricular completo,"{'edad': '79 años', 'especialidad': 'Medicina Interna'}",[],['sin especificación'],20.77,El bloqueo auriculoventricular se establece como diagnóstico principal sin poscoordinación específica ni enfermedades secundarias mencionadas.
+catéter venoso central asociado con lesión o daño,"{'edad': '74 años', 'especialidad': 'Medicina Interna'}",[],[],19.11,El catéter venoso central es el diagnóstico principal. No hay modificadores ni enfermedades secundarias adicionales.
+Otra hipertensión esencial especificada,"{'edad': '76 años', 'especialidad': 'Medicina Interna'}",[],[],16.18,
+Neumonía,"{'edad': '71 años', 'especialidad': 'Medicina Interna'}",[],[],20.22,"Se estructuró el diagnóstico principal como neumonía, considerando la ausencia de especificación del organismo causante como modificador."
+Insuficiencia respiratoria crónica de tipo I,"{'edad': '57 años', 'especialidad': 'Medicina Interna'}",[],[],19.04,El diagnóstico principal se basa en la descripción clínica. No hay información adicional sobre modificadores o enfermedades secundarias.
+Sepsis sin choque séptico,"{'edad': '33 años', 'especialidad': 'Medicina Interna'}",[],[],19.93,El diagnóstico principal es la sepsis sin choque séptico. No se presentan modificadores o enfermedades secundarias en el texto clínico.
+Trastorno esquizoafectivo,"{'edad': '32 años', 'especialidad': 'Psiquiatría Adulto'}",[],[],24.7,"Se establece el trastorno esquizoafectivo como diagnóstico principal, sin modificadores específicos. Se incluyen los episodios múltiples y la remisión parcial como enfermedades secundarias."
+Enfermedad renal crónica,"{'edad': '81 años', 'especialidad': 'Medicina Interna'}",[],[],18.68,No se presentan modificadores ni enfermedades secundarias específicas. Se establece la enfermedad renal crónica como diagnóstico principal.
+Choque cardiogénico,"{'edad': '74', 'especialidad': 'Medicina Interna'}",[],[],18.9,El choque cardiogénico es el diagnóstico principal. No se mencionan modificadores o enfermedades secundarias específicas.
+Trombosis venosa profunda de la extremidad inferior,"{'edad': '79 años', 'especialidad': 'Medicina Interna'}",[],[],15.34,
+Hipertensión esencial,"{'edad': '58 años', 'especialidad': 'Medicina Interna'}",[],['sin especificación'],19.09,La hipertensión es considerada el diagnóstico principal y no se presentan modificadores ni enfermedades secundarias específicas.
+Pancreatitis aguda,"{'edad': '45 años', 'especialidad': 'Medicina Interna'}",[],['sin especificación'],19.55,No hay modificadores o enfermedades secundarias específicas en la información proporcionada. El diagnóstico principal es pancreatitis aguda sin especificar.
+Cardiomiopatía isquémica,"{'edad': '67 años', 'especialidad': 'Medicina Interna'}",[],['sin especificación'],22.23,"La cardiomiopatía isquémica se considera diagnóstico principal, pero no se proporcionan elementos de poscoordinación o ruido clínico específicos para estructurar una salida más detallada."
+Hipoglucemia,"{'edad': '23', 'especialidad': 'Medicina Interna'}",[],[],24.53,"La hipoglucemia es el diagnóstico principal, y se especifica como no asociada con diabetes. Se asume que glibenclamida es un medicamento causante de la hipoglucemia."
+Anemia ferropénica,"{'edad': '59 años', 'especialidad': 'Medicina Interna'}",[],['sin especificación'],24.0,"La anemia ferropénica se establece como diagnóstico principal, pero no se proporciona información adicional que permita estructurar la poscoordinación con precisión. El ruido clínico simplemente menciona que el diagnóstico no está especificado."
+Hemorragia gastrointestinal,"{'edad': '67 años', 'especialidad': 'Medicina Interna'}",[],[],16.76,No hay información adicional relevante en el diagnóstico proporcionado.
+Angina estable,"{'edad': '72 años', 'especialidad': 'Medicina Interna'}",[],[],17.02,No se menciona información adicional que requiera la inclusión de modificadores o enfermedades secundarias.
+Infarto agudo del miocardio,"{'edad': '80 años', 'especialidad': 'Medicina Interna'}",[],[],14.18,
+Reacciones cutáneas adversas a la medicación,"{'edad': '17 años', 'especialidad': 'Medicina Interna'}",[],['sin especificación'],22.1,"Se considera el diagnóstico principal como una reacción cutánea adversa a la medicación, pero no se proporcionan detalles específicos para establecer modificadores o enfermedades secundarias."
+Hipertensión esencial,"{'edad': '60 años', 'especialidad': 'Medicina Interna'}",[],[],19.82,"La hipertensión es considerada diagnóstico principal, sin modificadores o enfermedades secundarias mencionadas. No se reportan descartes ni antecedentes familiares."
+Metástasis de neoplasia maligna a la pleura,"{'edad': '77 años', 'especialidad': 'Medicina Interna'}",[],[],23.53,Se estructuró como diagnóstico principal debido a la falta de detalles que sugieran una enfermedad primaria. La poscoordinación se enfoca en el agente causante.
+Dependencia de cocaína,"{'edad': '29 años', 'especialidad': 'Psiquiatría Adulto'}",[],[],20.92,El diagnóstico principal es la dependencia de cocaína sin especificación. No se encuentran modificadores ni enfermedades secundarias explícitas en el texto.
+"Trastorno de personalidad, sin especificación","{'edad': '46 años', 'especialidad': 'Psiquiatría Adulto'}",[],[],17.6,Se estructuró el diagnóstico principal según la sintaxis CIE-11.
+Accidente cerebrovascular isquémico,"{'edad': '62 años', 'especialidad': 'Medicina Interna'}",[],['sin especificación'],24.33,"El accidente cerebrovascular isquémico es el diagnóstico principal con una descripción insuficiente para establecer modificadores o enfermedades secundarias adicionales. Se omite la posibilidad de especificar síntomas asociados, lateralidad o estadio del accidente."
+Zóster oftálmico,"{'edad': '77 años', 'especialidad': 'Medicina Interna'}",[],[],22.33,"El diagnóstico principal se ha estructurado según la descripción clínica. Dado que no hay información adicional en el texto, las categorías de poscoordinación y ruido clínico se han mantenido vacías."
+Sepsis sin choque séptico,"{'edad': '90 años', 'especialidad': 'Medicina Interna'}",[],[],22.46,La sepsis sin choque séptico es el diagnóstico principal. No se establecen enfermedades secundarias ni ruido clínico.
+Arteriolopatía calcificada,"{'edad': '59 años', 'especialidad': 'Medicina Interna'}",[],[],19.52,"Se estructuró la información según la CIE-11, considerando el diagnóstico principal y su definición en la clasificación."
+Esquizofrenia,"{'edad': '33 años', 'especialidad': 'Psiquiatría Adulto'}",[],[],25.61,"La esquizofrenia se identifica como el diagnóstico principal, y se consideran modificadores del primer episodio y el estado de remisión parcial."
+Insuficiencia respiratoria,"{'edad': '56 años', 'especialidad': 'Medicina Interna'}",[],[],18.97,"Se asume la insuficiencia respiratoria como diagnóstico principal, sin información adicional que permita estructurar poscoordinación o ruido clínico."
+Síncope y colapso,"{'edad': '70 años', 'especialidad': 'Medicina Interna'}",[],[],21.69,"El diagnóstico de síncope y colapso no incluye especificación ni información adicional, por lo que no se han encontrado modificadores o enfermedades secundarias. El ruido clínico está vacío."

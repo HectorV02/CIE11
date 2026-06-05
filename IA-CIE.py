@@ -2,8 +2,18 @@ import ollama
 import csv
 import time
 import json
-modeloAProbar = "llama3.1:8b"
-archivoSalida = "resultadosLlama3.1.csv"
+#modeloAProbar = "llama3.1:8b"
+#archivoSalida = "resultadosLlama3.1.csv"
+modeloAProbar = "phi4"
+archivoSalida = "resultadosPhi4.csv"
+#modeloAProbar = "mistral-small"
+#archivoSalida = "resultadosMistralSmall.csv"
+#modeloAProbar = "gemma3:27b"
+#archivoSalida = "resultadosGemma3.csv"
+#modeloAProbar = "qwen3.5:9b"
+#archivoSalida = "resultadosQwen3.5.csv"
+#modeloAProbar = "gpt-oss:20b"
+#archivoSalida = "resultadosGptOss.csv"
 archivoEntrada = "datos_cmd_limpio.json"
 
 print("Cargando variables...")
@@ -15,7 +25,7 @@ except Exception as e:
     print(f"Error al leer archivo JSON: {e}")
     exit()
 
-promtBase = """
+"""
 Actúa como un experto en codificación médica y especialista en la CIE-11 de la OMS, así como un experto en estructuración de datos JSON.
 Tu tarea es analizar un diagnóstico clínico proporcionado en texto libre y asignar el código CIE-11 más preciso, utilizando la post-coordinación (clústeres) cuando sea necesario. Para mejorar la precisión, debes tomar en cuenta la edad del paciente y la especialidad médica.
 Reglas de codificación y formato que debes seguir estrictamente:
@@ -46,9 +56,56 @@ Diagnóstico en texto libre: {diagnostico}
 Especialidad: {especialidad}
 Edad del paciente: {edad}
 """
+#DESPUES PROBAR ESTE OTRO PROMPT, QUE ES MÁS DETALLADO Y EXPLÍCITO EN LA ESTRUCTURA DE LOS DATOS A EXTRAER, PARA VER SI OBTENEMOS MEJORES RESULTADOS:
+promtBase = """
+Actúa como un médico experto en codificación clínica, especialista en la CIE-11 de la OMS, y arquitecto de datos JSON.
+
+Tu tarea es analizar un diagnóstico clínico en texto libre, razonar sobre su estructura clínica y asignar el clúster de códigos CIE-11 más preciso, utilizando post-coordinación cuando aplique. La edad del paciente y la especialidad médica te ayudarán a desambiguar términos.
+
+REGLAS DE CODIFICACIÓN CIE-11 (SÍGUELAS ESTRICTAMENTE):
+1. Exactitud: Solo proporciona códigos oficiales. Si el diagnóstico es vago, usa el código de categoría más cercano a "sin especificar".
+2. Conectores y Patologías Secundarias: Presta especial atención a palabras como "con", "asociado a", "secundario a", "debido a". Esto indica múltiples condiciones o manifestaciones que deben ir en el mismo clúster.
+3. Sintaxis de Post-coordinación: 
+   - Usa la barra diagonal ( / ) para unir dos códigos troncales (patología principal + secundaria/manifestación).
+   - Usa el ampersand ( & ) para añadir códigos de extensión (lateralidad, gravedad, anatomía).
+   - Ejemplo válido: [CódigoTroncal1]/[CódigoTroncal2]&[Extensión1]&[Extensión2]
+
+MINI-DICCIONARIO DE EXTENSIONES COMUNES (Usa estos si aplican, no los inventes):
+- Lateralidad: Derecha (XK9K), Izquierda (XK8G), Bilateral (XK9J).
+- Curso Temporal: Agudo (XT8W), Crónico (XT5R), Recurrente (XT4Z).
+- Gravedad: Leve (XS5W), Moderado (XS0T), Grave/Severo (XS25).
+
+FORMATO DE SALIDA ESTRICTO:
+Debes responder ÚNICAMENTE con un objeto JSON válido. No incluyas saludos, ni explicaciones fuera del JSON, ni bloques de formato markdown como ```json.
+
+Estructura JSON requerida:
+{
+  "analisis_previo": "Analiza paso a paso el diagnóstico. 1) Identifica la condición principal considerando la especialidad y edad. 2) Identifica condiciones secundarias (busca la palabra 'con' o similares). 3) Identifica modificadores (lateralidad, gravedad, tiempo).",
+  "diagnosticos_troncales": [
+    {
+      "codigo": "Código base alfanumérico principal o secundario",
+      "nombre": "Nombre oficial"
+    }
+  ],
+  "post_coordinacion": [
+    {
+      "codigo": "Código de extensión (ej. XK8G)",
+      "nombre": "Significado de la extensión",
+      "tipo": "Categoría (ej. Lateralidad, Gravedad, Curso temporal)"
+    }
+  ],
+  "codigo_uri_completo": "Clúster final aplicando la regla de sintaxis (ej. 1A00/2B11&XK8G). Si solo hay un código troncal y sin extensiones, pon solo ese código.",
+  "nivel_de_certeza": "Alta, Media o Baja (indica qué tan seguro estás de la exactitud del código)"
+}
+
+Entrada de datos:
+Diagnóstico en texto libre: {diagnostico}
+Especialidad: {especialidad}
+Edad del paciente: {edad}
+"""
 print("Iniciando pruebas...")
 with open(archivoSalida, "w", newline="", encoding="utf-8") as archivoCSV:
-    escritor = csv.writer(archivoCSV)
+    escritor = csv.writer(archivoCSV, delimiter=";")
     escritor.writerow(["diagnostico", "codigo_principal", "post_coordinacion", "codigo_ia", "codigo_real", "explicacion", "tiempo_respuesta"])
     
     for ejemplo in variables:
@@ -61,7 +118,11 @@ with open(archivoSalida, "w", newline="", encoding="utf-8") as archivoCSV:
         try:
             respuesta = ollama.chat(
                 model = modeloAProbar, 
-                messages = [{"role": "user", "content": promtCompleto}]
+                messages = [{"role": "user", "content": promtCompleto}],
+                options={
+                    'temperature': 0.0, # Anula la creatividad y alucinaciones
+                    'num_ctx': 4096     # Opcional: Aumenta la ventana de contexto si el texto es muy largo
+                }
             )
             textoRespuesta = respuesta.message.content
             tiempoFin = time.time()
