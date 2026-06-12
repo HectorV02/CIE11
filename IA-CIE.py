@@ -2,10 +2,10 @@ import ollama
 import csv
 import time
 import json
-#modeloAProbar = "llama3.1:8b"
-#archivoSalida = "resultadosLlama3.1.csv"
-modeloAProbar = "phi4"
-archivoSalida = "resultadosPhi4.csv"
+modeloAProbar = "llama3.1:8b"
+archivoSalida = "resultadosLlama3.1_M2.csv"
+#modeloAProbar = "phi4"
+#archivoSalida = "resultadosPhi4.csv"
 #modeloAProbar = "mistral-small"
 #archivoSalida = "resultadosMistralSmall.csv"
 #modeloAProbar = "gemma3:27b"
