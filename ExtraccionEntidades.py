@@ -19,12 +19,16 @@ import json
 # Los modelos para probar rapido, menos de 8b
 #modeloAProbar = "deepseek-r1:7b"
 #archivoSalida = "resultadosDeepSeek.csv"
-modeloAProbar = "qwen2.5:7b"
-archivoSalida = "resultadosQwen.csv"
+#modeloAProbar = "qwen2.5:7b"
+#archivoSalida = "resultadosQwen.csv"
 #modeloAProbar = "mistral"
+#archivoSalida = "resultadosMistral.csv"
 #modeloAProbar = "gemma3:4b"
+#archivoSalida = "resultadosGemma.csv"
 #modeloAProbar = "phi3.5"
-#modeloAProbar = "llama3.2:3b"
+#archivoSalida = "resultadosPhi.csv"
+modeloAProbar = "llama3.2:3b"
+archivoSalida = "resultadosLlama.csv"
 archivoEntrada = "datos_cmd_limpio.json"
 
 print("Cargando variables...")
