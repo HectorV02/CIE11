@@ -2,7 +2,8 @@ import ollama
 import csv
 import time
 import json
-# Los modelos que me dan justo, 8b o mas
+import re
+# Modelos que no me dieron
 #modeloAProbar = "llama3.1:8b"
 #archivoSalida = "resultadosLlama3.1_V2_P2.csv"
 #modeloAProbar = "phi4"
@@ -16,7 +17,7 @@ import json
 #modeloAProbar = "gpt-oss:20b"
 #archivoSalida = "resultadosGptOss_V2.csv"
 
-# Los modelos para probar rapido, menos de 8b
+# Modelos que si me dieron
 #modeloAProbar = "deepseek-r1:7b"
 #archivoSalida = "resultadosDeepSeek.csv"
 #modeloAProbar = "qwen2.5:7b"
@@ -27,8 +28,16 @@ import json
 #archivoSalida = "resultadosGemma.csv"
 #modeloAProbar = "phi3.5"
 #archivoSalida = "resultadosPhi.csv"
-modeloAProbar = "llama3.2:3b"
-archivoSalida = "resultadosLlama.csv"
+#modeloAProbar = "llama3.2:3b"
+#archivoSalida = "resultadosLlama.csv"
+
+# Modelos medicos
+#modeloAProbar = "medgemma1.5"
+#archivoSalida = "resultadosMedGemma.csv"
+#modeloAProbar = "meditron"
+#archivoSalida = "resultadosMeditron.csv"
+modeloAProbar = "medllama2"
+archivoSalida = "resultadosMedLlama.csv"
 archivoEntrada = "datos_cmd_limpio.json"
 
 print("Cargando variables...")
@@ -53,7 +62,7 @@ Debes responder ÚNICAMENTE con un objeto JSON válido, sin texto introductorio,
    a) "modificadores" (Eje de los ampersands &): Conceptos dependientes que añaden detalle al diagnóstico principal (lateralidad, gravedad, agudo/crónico, anatomía específica, microorganismos causales, etc.).
    b) "enfermedades_secundarias" (Eje de las barras /): Comorbilidades o diagnósticos independientes asociados. PISTA VITAL: Búscalas explícitamente después de conectores como "con", "secundario a", "debido a", "asociado a", "complicado por", o "y".
 5. "ruido_clinico": Aísla y descarta aquí signos vitales normales, antecedentes familiares/personales no relacionados al episodio actual, patologías descartadas explícitamente ("se descarta...", "negativo para...") y lenguaje netamente administrativo.
-6. Campos Vacíos: Si un modificador no aplica o no se menciona, utiliza el valor `null` (sin comillas). Si una lista o arreglo no tiene elementos, utiliza un arreglo vacío `[]`.
+6. Campos Vacíos: Si un modificador no aplica o no se menciona, utiliza el valor null (sin comillas). Si una lista o arreglo no tiene elementos, utiliza un arreglo vacío [].
 7. "explicacion": Breve resumen final de la lógica aplicada tras la extracción.
 
 ### ESTRUCTURA JSON REQUERIDA (Esquema estricto):
@@ -172,7 +181,7 @@ with open(archivoSalida, "w", newline="", encoding="utf-8") as archivoCSV:
             textoRespuesta = respuesta.message.content
             tiempoFin = time.time()
             tiempoTotal = round(tiempoFin - tiempoInicio, 2)
-            
+            """
             # Limpieza exhaustiva de markdown para prevenir errores al parsear el JSON
             texto_limpio = textoRespuesta.strip()
             if texto_limpio.startswith("```json"):
@@ -182,8 +191,19 @@ with open(archivoSalida, "w", newline="", encoding="utf-8") as archivoCSV:
             if texto_limpio.endswith("```"):
                 texto_limpio = texto_limpio[:-3]
             texto_limpio = texto_limpio.strip()
+            """
+            # --- NUEVA LIMPIEZA EXHAUSTIVA CON REGEX ---
+            # Busca todo lo que esté entre la primera '{' y la última '}'
+            match = re.search(r'\{.*\}', textoRespuesta, re.DOTALL)
+            
+            if match:
+                texto_limpio = match.group(0)
+            else:
+                # Si el modelo alucinó tanto que ni siquiera generó llaves, forzamos un error
+                raise ValueError(f"El modelo no generó un JSON. Respuesta cruda: {textoRespuesta[:50]}...")
             
             # Parseamos el JSON devuelto
+            
             datos_json = json.loads(texto_limpio)
             
             # Extracción basada estrictamente en la definición del prompt
