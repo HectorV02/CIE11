@@ -3,6 +3,9 @@ import csv
 import time
 import json
 import re
+import os
+from dotenv import load_dotenv
+import requests
 # Modelos que no me dieron
 #modeloAProbar = "llama3.1:8b"
 #archivoSalida = "resultadosLlama3.1_V2_P2.csv"
@@ -36,11 +39,64 @@ import re
 #archivoSalida = "resultadosMedGemma.csv"
 #modeloAProbar = "meditron"
 #archivoSalida = "resultadosMeditron.csv"
-modeloAProbar = "medllama2"
-archivoSalida = "resultadosMedLlama.csv"
+#modeloAProbar = "medllama2"
+#archivoSalida = "resultadosMedLlama.csv"
+
+#Locales en Open Router (free)
+#modeloAProbar = "qwen/qwen3-next-80b-a3b-instruct:free" -> Rate Limit
+#archivoSalida = "openRouterQwen.csv"
+#modeloAProbar = "qwen/qwen3-coder:free" -> Rate limit
+#archivoSalida = "openRouterQwen2.csv"
+#modeloAProbar = "cognitivecomputations/dolphin-mistral-24b-venice-edition:free" -> Rate Limit
+#archivoSalida = "openRouterMistral.csv"
+#modeloAProbar = "google/gemma-4-31b-it:free"
+#archivoSalida = "openRouterGemma.csv"
+#modeloAProbar = "google/gemma-4-26b-a4b-it:free"
+#archivoSalida = "openRouterGemma2.csv"
+#modeloAProbar = "meta-llama/llama-3.3-70b-instruct:free" -> Rate Limit
+#archivoSalida = "openRouterLlama.csv"
+#modeloAProbar = "meta-llama/llama-3.2-3b-instruct:free" -> Rate Limit
+#archivoSalida = "openRouterLlama2.csv"
+
+#Top de Open Router (free)
+#modeloAProbar = "openrouter/owl-alpha"
+#archivoSalida = "openRouterOWL.csv"
+#modeloAProbar = "openai/gpt-oss-120b:free"
+#archivoSalida = "openRouterGPT.csv"
+#modeloAProbar = "nvidia/nemotron-3-ultra-550b-a55b:free"
+#archivoSalida = "openRouteNvidia.csv"
+#modeloAProbar = "nvidia/nemotron-3-super-120b-a12b:free"
+#archivoSalida = "openRouteNvidia2.csv"
+#modeloAProbar = "cohere/north-mini-code:free"
+#archivoSalida = "openRouterCohere.csv"
+
+#Top de Open Router (pay)
+#modeloAProbar = "xiaomi/mimo-v2.5"
+#archivoSalida = "openRouterMimo.csv"
+#modeloAProbar = "minimax/minimax-m3"
+#archivoSalida = "openRouterMiniMax.csv"
+#modeloAProbar = "z-ai/glm-5.2"
+#archivoSalida = "openRouterZ.csv"
+#modeloAProbar = "deepseek/deepseek-v4-flash"
+#archivoSalida = "openRouterDeepSeek.csv"
+#modeloAProbar = "anthropic/claude-sonnet-4.6"
+#archivoSalida = "openRouterClaude1.csv"
+#modeloAProbar = "anthropic/claude-opus-4.8" #-> gasta demasiado
+#archivoSalida = "openRouterClaude2.csv"
+#modeloAProbar = "openai/gpt-5.5"
+#archivoSalida = "openRouterGPT2.csv"
+modeloAProbar = "google/gemini-3-flash-preview"
+archivoSalida = "openRouterGemini.csv"
 archivoEntrada = "datos_cmd_limpio.json"
 
 print("Cargando variables...")
+load_dotenv()
+api_key = os.getenv('OPEN_ROUTER_API_KEY')
+url = "https://openrouter.ai/api/v1/chat/completions"
+headers = {
+#    "Content-Type": "application/json",
+    "Authorization": f"Bearer {api_key}"
+}
 try:
     with open(archivoEntrada, "r", encoding="utf-8") as archivo:
         variables = json.load(archivo)
@@ -170,6 +226,38 @@ with open(archivoSalida, "w", newline="", encoding="utf-8") as archivoCSV:
         tiempoInicio = time.time()
         
         try:
+            data = {
+              "model": modeloAProbar, 
+              "messages": [
+                {"role": "user", "content": promtCompleto}
+              ],
+              "temperature": 0.0
+              }
+            max_reintentos = 3
+            textoRespuesta = None
+            for intento in range(max_reintentos):
+              respuesta = requests.post(url, headers=headers, json=data)
+              if respuesta.status_code == 200:
+                # Petición exitosa
+                textoRespuesta = respuesta.json()['choices'][0]['message']['content']
+                print("¡Respuesta recibida con éxito!")
+                break # Salimos del bucle
+              elif respuesta.status_code == 429:
+                datos_error = respuesta.json()
+        
+                # Intentamos extraer los segundos de espera del error, si no, esperamos 20s por defecto
+                try:
+                  espera = datos_error['error']['metadata']['retry_after_seconds']
+                except (KeyError, ValueError):
+                  espera = 20 
+            
+                print(f"Límite de la API alcanzado. Esperando {espera} segundos antes de reintentar...")
+                time.sleep(espera)
+              else:
+                # Otro tipo de error (400, 401, 500, etc.)
+                print(f"Error definitivo: {respuesta.status_code} - {respuesta.text}")
+                break
+            """
             respuesta = ollama.chat(
                 model=modeloAProbar, 
                 messages=[{"role": "user", "content": promtCompleto}],
@@ -179,6 +267,15 @@ with open(archivoSalida, "w", newline="", encoding="utf-8") as archivoCSV:
                 }
             )
             textoRespuesta = respuesta.message.content
+            """
+            if respuesta.status_code == 200:
+              # La API de OpenRouter devuelve un JSON estructurado de forma diferente a Ollama
+              datos_json = respuesta.json()
+              textoRespuesta = datos_json['choices'][0]['message']['content']
+            else:
+              # Manejo básico de errores por si falla la llamada
+              print(f"Error en la petición: {respuesta.status_code} - {respuesta.text}")
+              textoRespuesta = None
             tiempoFin = time.time()
             tiempoTotal = round(tiempoFin - tiempoInicio, 2)
             """
@@ -192,38 +289,39 @@ with open(archivoSalida, "w", newline="", encoding="utf-8") as archivoCSV:
                 texto_limpio = texto_limpio[:-3]
             texto_limpio = texto_limpio.strip()
             """
-            # --- NUEVA LIMPIEZA EXHAUSTIVA CON REGEX ---
-            # Busca todo lo que esté entre la primera '{' y la última '}'
-            match = re.search(r'\{.*\}', textoRespuesta, re.DOTALL)
+            if textoRespuesta:
+              # --- NUEVA LIMPIEZA EXHAUSTIVA CON REGEX ---
+              # Busca todo lo que esté entre la primera '{' y la última '}'
+              match = re.search(r'\{.*\}', textoRespuesta, re.DOTALL)
             
-            if match:
-                texto_limpio = match.group(0)
-            else:
-                # Si el modelo alucinó tanto que ni siquiera generó llaves, forzamos un error
-                raise ValueError(f"El modelo no generó un JSON. Respuesta cruda: {textoRespuesta[:50]}...")
+              if match:
+                  texto_limpio = match.group(0)
+              else:
+                  # Si el modelo alucinó tanto que ni siquiera generó llaves, forzamos un error
+                  raise ValueError(f"El modelo no generó un JSON. Respuesta cruda: {textoRespuesta[:50]}...")
             
-            # Parseamos el JSON devuelto
+              # Parseamos el JSON devuelto
             
-            datos_json = json.loads(texto_limpio)
+              datos_json = json.loads(texto_limpio)
             
-            # Extracción basada estrictamente en la definición del prompt
-            diagnostico_principal = datos_json.get("diagnostico_principal", "No encontrado")
-            explicacion = datos_json.get("explicacion", "")
+              # Extracción basada estrictamente en la definición del prompt
+              diagnostico_principal = datos_json.get("diagnostico_principal", "No encontrado")
+              explicacion = datos_json.get("explicacion", "")
             
-            # Formateamos sub-objetos y listas como string para no romper el CSV
-            contexto = json.dumps(datos_json.get("contexto", {}), ensure_ascii=False)
-            post_coord = json.dumps(datos_json.get("poscoordinacion", {}), ensure_ascii=False)
-            ruido_clinico = json.dumps(datos_json.get("ruido_clinico", []), ensure_ascii=False)
+              # Formateamos sub-objetos y listas como string para no romper el CSV
+              contexto = json.dumps(datos_json.get("contexto", {}), ensure_ascii=False)
+              post_coord = json.dumps(datos_json.get("poscoordinacion", {}), ensure_ascii=False)
+              ruido_clinico = json.dumps(datos_json.get("ruido_clinico", []), ensure_ascii=False)
             
-            escritor.writerow([
-                diagnostico_principal, 
-                contexto, 
-                post_coord, 
-                ruido_clinico, 
-                tiempoTotal,
-                explicacion
-            ])
-            print(f"Completado. Respuesta obtenida en {tiempoTotal} segundos.")
+              escritor.writerow([
+                  diagnostico_principal, 
+                  contexto, 
+                  post_coord, 
+                  ruido_clinico, 
+                  tiempoTotal,
+                  explicacion
+              ])
+              print(f"Completado. Respuesta obtenida en {tiempoTotal} segundos.")
             
         except Exception as e:
             tiempoFin = time.time()

@@ -116,6 +116,7 @@ with open(archivoSalida, "w", newline="", encoding="utf-8") as archivoCSV:
         promtCompleto = promtCompleto.replace("{edad}", str(ejemplo["age"]))
         tiempoInicio = time.time()
         try:
+            """
             respuesta = ollama.chat(
                 model = modeloAProbar, 
                 messages = [{"role": "user", "content": promtCompleto}],
@@ -124,6 +125,7 @@ with open(archivoSalida, "w", newline="", encoding="utf-8") as archivoCSV:
                     'num_ctx': 4096     # Opcional: Aumenta la ventana de contexto si el texto es muy largo
                 }
             )
+            """
             textoRespuesta = respuesta.message.content
             tiempoFin = time.time()
             tiempoTotal = round(tiempoFin - tiempoInicio, 2)
