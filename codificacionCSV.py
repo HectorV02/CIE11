@@ -146,7 +146,7 @@ def procesar_csv(archivo_entrada, archivo_salida):
 # ==========================================
 if __name__ == '__main__':
     # Nombres de tus archivos
-    ARCHIVO_ENTRADA = 'resultados/resultadosQwen.csv'
-    ARCHIVO_SALIDA = 'codificados/codificadosQwen.csv'
+    ARCHIVO_ENTRADA = 'OpenRouter/resultados/openRouterZ.csv'
+    ARCHIVO_SALIDA = 'OpenRouter/codificados/codificadosZ.csv'
     
     procesar_csv(ARCHIVO_ENTRADA, ARCHIVO_SALIDA)

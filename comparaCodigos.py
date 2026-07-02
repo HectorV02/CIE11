@@ -5,8 +5,8 @@ import csv
 # CONFIGURACIÓN DE ARCHIVOS
 # ==========================================
 ARCHIVO_JSON_REALES = 'datos_cmd_limpio.json'
-ARCHIVO_CSV_GENERADOS = 'codificados/codificadosQwen.csv'
-ARCHIVO_REPORTE = 'reporte/reporteQwen.csv'
+ARCHIVO_CSV_GENERADOS = 'OpenRouter/codificados/codificadosZ.csv'
+ARCHIVO_REPORTE = 'OpenRouter/reportes/reporteZ.csv'
 
 def cargar_reales(ruta_json):
     """Carga los datos reales desde el archivo JSON."""
