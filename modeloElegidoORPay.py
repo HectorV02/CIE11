@@ -1,18 +1,18 @@
 import matplotlib.pyplot as plt
 
 # ==========================================
-# 1. DATOS DE LOS MODELOS (RESTANTES)
+# 1. DATOS DE LOS MODELOS (RESTANTES + Mimo)
 # ==========================================
 modelos = [
-    'MiniMax M3', 'DeepSeek V4 Flash', 'Claude Sonnet 4.6', 'GPT 5.5', 'Gemini 3 Flash', 'GLM 5.2'
+    'MiniMax M3', 'DeepSeek V4 Flash', 'Claude Sonnet 4.6', 'GPT 5.5', 'Gemini 3 Flash', 'GLM 5.2', 'Mimo V2.5'
 ]
 
-latencia = [13.73, 10.19, 9.32, 8.30, 3.62, 13.35]
-exactitud = [73.23, 72.22, 71.21, 68.18, 65.66, 65.66]
+latencia = [13.73, 10.19, 9.32, 8.30, 3.62, 13.35, 21.9]
+exactitud = [73.23, 72.22, 71.21, 68.18, 65.66, 65.66, 65.66]
 
-# Colores distintos para cada modelo
-colores = ['#d62728', '#9467bd', '#8c564b', '#e377c2', '#17becf', '#7f7f7f']
-tamanos = [200, 200, 200, 200, 200, 200] 
+# Colores distintos para cada modelo (Añadido un tono amarillo/oliva para Mimo)
+colores = ['#d62728', '#9467bd', '#8c564b', '#e377c2', '#17becf', '#7f7f7f', '#bcbd22']
+tamanos = [200, 200, 200, 200, 200, 200, 200] 
 
 # ==========================================
 # 2. CONFIGURACIÓN DEL GRÁFICO
@@ -24,19 +24,22 @@ plt.style.use('seaborn-v0_8-whitegrid')
 plt.scatter(latencia, exactitud, c=colores, s=tamanos, alpha=0.8, edgecolors='black')
 
 # Forzar los márgenes ajustados al nuevo grupo de datos
-plt.xlim(0, 18)   # La latencia máxima es 13.73, 18 deja buen margen
-plt.ylim(63, 76)  # La exactitud va de 65.66 a 73.23
+plt.xlim(0, 25)   # Aumentado a 25 para incluir la latencia de Mimo (21.9s)
+plt.ylim(63, 76)  # La exactitud va de 65.66 a 73.23, se mantiene igual
 
 # Etiquetas personalizadas para que no choquen
 for i, modelo in enumerate(modelos):
-    if modelo in ['MiniMax', 'DeepSeek', 'Claude1']:
+    if modelo in ['MiniMax M3', 'DeepSeek V4 Flash', 'Claude Sonnet 4.6']:
         # Textos arriba para los modelos con mayor exactitud
         plt.annotate(modelo, (latencia[i], exactitud[i] + 0.4), fontsize=10, ha='center', fontweight='bold', color=colores[i])
-    elif modelo == 'Gemini':
+    elif modelo == 'Gemini 3 Flash':
         # Texto a la derecha para el más rápido (evita chocar con el borde o línea guía)
-        plt.annotate(modelo, (latencia[i] + 0.4, exactitud[i] - 0.1), fontsize=10, ha='left', fontweight='bold', color=colores[i])
+        plt.annotate(modelo, (latencia[i] + 0.5, exactitud[i] - 0.1), fontsize=10, ha='left', fontweight='bold', color=colores[i])
+    elif modelo == 'Mimo V2.5':
+        # Texto arriba para Mimo
+        plt.annotate(modelo, (latencia[i], exactitud[i] + 0.4), fontsize=10, ha='center', fontweight='bold', color=colores[i])
     else:
-        # Textos abajo para el resto (GPT2, Z)
+        # Textos abajo para el resto (GPT 5.5, GLM 5.2)
         plt.annotate(modelo, (latencia[i], exactitud[i] - 0.7), fontsize=10, ha='center', fontweight='bold', color=colores[i])
 
 # ==========================================

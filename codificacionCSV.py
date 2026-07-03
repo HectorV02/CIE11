@@ -106,7 +106,7 @@ def procesar_csv(archivo_entrada, archivo_salida):
     print(f"\nIniciando lectura de {archivo_entrada}...\n")
 
     # Abrimos el CSV de lectura y creamos uno nuevo para la escritura
-    with open(archivo_entrada, mode='r', encoding='utf-8') as infile, \
+    with open(archivo_entrada, mode='r', encoding='latin-1') as infile, \
          open(archivo_salida, mode='w', encoding='utf-8', newline='') as outfile:
         
         # El CSV de entrada parece utilizar punto y coma (;) como delimitador
@@ -146,7 +146,7 @@ def procesar_csv(archivo_entrada, archivo_salida):
 # ==========================================
 if __name__ == '__main__':
     # Nombres de tus archivos
-    ARCHIVO_ENTRADA = 'OpenRouter/resultados/openRouterZ.csv'
-    ARCHIVO_SALIDA = 'OpenRouter/codificados/codificadosZ.csv'
+    ARCHIVO_ENTRADA = 'OpenRouter/resultadosV2/openRouterClaude1.csv'
+    ARCHIVO_SALIDA = 'OpenRouter/codificadosV2/codificadosClaude1.csv'
     
     procesar_csv(ARCHIVO_ENTRADA, ARCHIVO_SALIDA)

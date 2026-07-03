@@ -1,26 +1,12 @@
-import json
 import csv
 
 # ==========================================
 # CONFIGURACIÓN DE ARCHIVOS
 # ==========================================
-ARCHIVO_JSON_REALES = 'datos_cmd_limpio.json'
-ARCHIVO_CSV_GENERADOS = 'OpenRouter/codificados/codificadosZ.csv'
-ARCHIVO_REPORTE = 'OpenRouter/reportes/reporteZ.csv'
-
-def cargar_reales(ruta_json):
-    """Carga los datos reales desde el archivo JSON."""
-    with open(ruta_json, 'r', encoding='utf-8') as f:
-        return json.load(f)
-
-def cargar_generados(ruta_csv):
-    """Carga los datos generados por la IA y Docker desde el CSV."""
-    filas = []
-    with open(ruta_csv, 'r', encoding='utf-8') as f:
-        lector = csv.DictReader(f, delimiter=';')
-        for fila in lector:
-            filas.append(fila)
-    return filas
+ARCHIVO_CSV_GENERADOS = 'OpenRouter/codificadosV2/codificadosZ.csv'
+ARCHIVO_REPORTE = 'OpenRouter/reportesV2/reporteZ.csv'
+#ARCHIVO_CSV_GENERADOS = 'Locales/codificadosV2/codificadosQwen.csv'
+#ARCHIVO_REPORTE = 'Locales/reportesV2/reporteQwen.csv'
 
 def evaluar_coincidencia(codigo_real, codigo_gen_multiple):
     """
@@ -32,68 +18,62 @@ def evaluar_coincidencia(codigo_real, codigo_gen_multiple):
     if codigo_gen_multiple.strip().upper() == "SIN CÓDIGO" or not codigo_gen_multiple:
         return "Fallida", "Ninguno"
         
-    # Separar las múltiples opciones usando el delimitador "|"
     opciones_generadas = [opcion.strip().upper() for opcion in codigo_gen_multiple.split('|')]
     
-    # 1. Buscar primero si hay ALGUNA coincidencia exacta
     for opcion in opciones_generadas:
         if opcion == codigo_real:
             return "Exacta", opcion
             
-    # 2. Si no hay exacta, buscar si hay ALGUNA coincidencia parcial
     for opcion in opciones_generadas:
-        # El código generado está contenido dentro del código real (ej. post-coordinación)
         if opcion in codigo_real:
             return "Parcial", opcion
             
-    # 3. Si ninguna iteración tuvo éxito, es fallida
     return "Fallida", "Ninguno"
 
 def comparar_datos():
-    print("Cargando archivos...")
-    try:
-        reales = cargar_reales(ARCHIVO_JSON_REALES)
-        generados = cargar_generados(ARCHIVO_CSV_GENERADOS)
-    except FileNotFoundError as e:
-        print(f"Error: No se encontró el archivo. {e}")
-        return
-
-    # Verificar que tengan la misma cantidad de filas
-    if len(reales) != len(generados):
-        print(f"⚠️ Advertencia: El JSON tiene {len(reales)} registros y el CSV tiene {len(generados)}.")
-        print("Se compararán hasta donde coincidan las filas.\n")
-
+    print("Cargando archivo unificado...")
     resultados = []
     estadisticas = {"Exacta": 0, "Parcial": 0, "Fallida": 0, "Total": 0}
 
-    # Iterar emparejando fila a fila (asumiendo que mantienen el mismo orden)
-    for i, (real, gen) in enumerate(zip(reales, generados)):
-        texto_real = real.get('text', '')
-        codigo_real = real.get('code', '')
-        
-        texto_gen = gen.get('diagnostico_principal', '')
-        codigo_gen_multiple = gen.get('codigo_cie11', 'Sin código')
-        
-        # Obtenemos la evaluación y cuál fue el código que hizo "match"
-        evaluacion, codigo_match = evaluar_coincidencia(codigo_real, codigo_gen_multiple)
-        
-        estadisticas[evaluacion] += 1
-        estadisticas["Total"] += 1
-        
-        resultados.append({
-            'fila': i + 1,
-            'texto_original_json': texto_real,
-            'texto_extraido_csv': texto_gen,
-            'codigo_real_json': codigo_real,
-            'opciones_generadas_csv': codigo_gen_multiple,
-            'codigo_coincidente': codigo_match, # NUEVA COLUMNA
-            'resultado': evaluacion
-        })
+    try:
+        with open(ARCHIVO_CSV_GENERADOS, 'r', encoding='latin-1') as f: # Usamos utf-8-sig por si viene de Excel
+            lector = csv.DictReader(f, delimiter=';')
+            
+            for fila in lector:
+                # 1. Extraemos los datos reales que pusiste a mano
+                id_fila = fila.get('ID', 'N/A')
+                texto_real = fila.get('texto_original', '')
+                codigo_real = fila.get('codigo_real', '')
+                
+                # 2. Extraemos los datos generados por el LLM y la OMS
+                texto_gen = fila.get('diagnostico_principal', '')
+                codigo_gen_multiple = fila.get('codigo_cie11', 'Sin código')
+                
+                # 3. Evaluamos (Misma lógica robusta que ya tenías)
+                evaluacion, codigo_match = evaluar_coincidencia(codigo_real, codigo_gen_multiple)
+                
+                estadisticas[evaluacion] += 1
+                estadisticas["Total"] += 1
+                
+                resultados.append({
+                    'ID': id_fila,
+                    'texto_original': texto_real,
+                    'texto_extraido_csv': texto_gen,
+                    'codigo_real': codigo_real,
+                    'opciones_generadas_csv': codigo_gen_multiple,
+                    'codigo_coincidente': codigo_match,
+                    'resultado': evaluacion
+                })
+    except FileNotFoundError:
+        print(f"Error: No se encontró el archivo {ARCHIVO_CSV_GENERADOS}")
+        return
+    except KeyError as e:
+        print(f"Error: Falta una columna en el CSV. Asegúrate de que se llame exactamente: {e}")
+        return
 
     # Guardar el reporte
-    with open(ARCHIVO_REPORTE, 'w', encoding='utf-8', newline='') as f:
-        # Agregamos la nueva columna al reporte
-        campos = ['fila', 'texto_original_json', 'texto_extraido_csv', 'codigo_real_json', 'opciones_generadas_csv', 'codigo_coincidente', 'resultado']
+    with open(ARCHIVO_REPORTE, 'w', encoding='latin-1', newline='') as f:
+        campos = ['ID', 'texto_original', 'texto_extraido_csv', 'codigo_real', 'opciones_generadas_csv', 'codigo_coincidente', 'resultado']
         escritor = csv.DictWriter(f, fieldnames=campos, delimiter=';')
         
         escritor.writeheader()
@@ -104,9 +84,10 @@ def comparar_datos():
     print("📊 RESUMEN DE LA COMPARACIÓN (TOP-K ACCURACY)")
     print("=========================================")
     print(f"Total evaluados : {estadisticas['Total']}")
-    print(f"✅ Exactas      : {estadisticas['Exacta']} ({(estadisticas['Exacta']/estadisticas['Total'])*100:.2f}%)")
-    print(f"⚠️ Parciales    : {estadisticas['Parcial']} ({(estadisticas['Parcial']/estadisticas['Total'])*100:.2f}%)")
-    print(f"❌ Fallidas     : {estadisticas['Fallida']} ({(estadisticas['Fallida']/estadisticas['Total'])*100:.2f}%)")
+    if estadisticas['Total'] > 0:
+        print(f"✅ Exactas      : {estadisticas['Exacta']} ({(estadisticas['Exacta']/estadisticas['Total'])*100:.2f}%)")
+        print(f"⚠️ Parciales    : {estadisticas['Parcial']} ({(estadisticas['Parcial']/estadisticas['Total'])*100:.2f}%)")
+        print(f"❌ Fallidas     : {estadisticas['Fallida']} ({(estadisticas['Fallida']/estadisticas['Total'])*100:.2f}%)")
     print("=========================================")
     print(f"Reporte detallado guardado en: {ARCHIVO_REPORTE}")
 
